@@ -7,12 +7,16 @@ public class Player : MonoBehaviour
     [SerializeField] public float moveSpeed = 25f;
     [SerializeField] public float jumpHeight = 20f;
     [SerializeField] public float Feet = 20f;
+    [SerializeField] AudioClip pickupSound;
     Rigidbody rb;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
     }
 
     // Update is called once per frame

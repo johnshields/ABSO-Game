@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Interact
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 1217462911
+    locked: 0
+  - name: Interact
+    uniqueID: 225839569
     locked: 0
