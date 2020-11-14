@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,11 +10,11 @@ public class Player : MonoBehaviour
     [SerializeField] public float Feet = 20f;
     [SerializeField] AudioClip playerSound;
     [SerializeField] AudioClip jumpSound;
+    [SerializeField] AudioClip death;
     CapsuleCollider myBodyCollider;
+    BoxCollider bc;
     Rigidbody rb;
     bool IsAlive;
-
-    
 
     // Start is called before the first frame update
     void Start()
@@ -51,5 +52,10 @@ public class Player : MonoBehaviour
 
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+
     }
 }
