@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Obstactle : MonoBehaviour
 {
-    [SerializeField] AudioClip pickupSound;
+    [SerializeField] AudioClip hitSound;
 
     private void OnTriggerEnter(Collider collision)
     {
-        AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position);
     }
 }

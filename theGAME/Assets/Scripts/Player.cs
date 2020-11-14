@@ -7,21 +7,27 @@ public class Player : MonoBehaviour
     [SerializeField] public float moveSpeed = 25f;
     [SerializeField] public float jumpHeight = 20f;
     [SerializeField] public float Feet = 20f;
-    [SerializeField] AudioClip pickupSound;
+    [SerializeField] AudioClip playerSound;
+    [SerializeField] AudioClip jumpSound;
+    CapsuleCollider myBodyCollider;
     Rigidbody rb;
+    bool IsAlive;
 
     
 
     // Start is called before the first frame update
     void Start()
     {
+        IsAlive = true;
         rb = GetComponent<Rigidbody>();
-        AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
+        myBodyCollider = GetComponent<CapsuleCollider>();
+        AudioSource.PlayClipAtPoint(playerSound, Camera.main.transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(!IsAlive) { return;  }
         Run();
         Jump();
     }
@@ -41,7 +47,8 @@ public class Player : MonoBehaviour
         {
             if (transform.position.y <=Feet) {
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight);
-                
+                AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position);
+
             }
         }
     }

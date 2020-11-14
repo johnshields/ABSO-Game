@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -15,9 +16,9 @@ TagManager:
   - 
   - Ground
   - Interact
-  - 
-  - 
-  - 
+  - Player
+  - Obstacles
+  - Enemies
   - 
   - 
   - 
@@ -46,4 +47,13 @@ TagManager:
     locked: 0
   - name: Interact
     uniqueID: 225839569
+    locked: 0
+  - name: Player
+    uniqueID: 4046731141
+    locked: 0
+  - name: Obstaclles
+    uniqueID: 1901247741
+    locked: 0
+  - name: Enemies
+    uniqueID: 4108659479
     locked: 0
