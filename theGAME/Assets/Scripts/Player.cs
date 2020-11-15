@@ -56,6 +56,6 @@ public class Player : MonoBehaviour
 
     private void OnGUI()
     {
-        GUI.Label(new Rect(550, 0, 200, 50), "Bolts : " + points);
+        GUI.Label(new Rect(600, 0, 200, 50), "Bolts : " + points);
     }
 }
