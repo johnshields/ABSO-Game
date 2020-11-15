@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] AudioClip spider;
     [SerializeField] AudioClip death;
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform respawnPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +22,10 @@ public class Enemy : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter(Collider other)
     {
         AudioSource.PlayClipAtPoint(spider, Camera.main.transform.position);
         AudioSource.PlayClipAtPoint(death, Camera.main.transform.position);
+        player.transform.position = respawnPoint.transform.position;
     }
 }

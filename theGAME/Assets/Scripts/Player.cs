@@ -10,11 +10,11 @@ public class Player : MonoBehaviour
     [SerializeField] public float Feet = 20f;
     [SerializeField] AudioClip playerSound;
     [SerializeField] AudioClip jumpSound;
-    [SerializeField] AudioClip death;
     CapsuleCollider myBodyCollider;
     BoxCollider bc;
     Rigidbody rb;
     bool IsAlive;
+    public int points = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -54,8 +54,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnGUI()
     {
-
+        GUI.Label(new Rect(550, 0, 200, 50), "Bolts : " + points);
     }
 }

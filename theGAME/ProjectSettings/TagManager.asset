@@ -19,7 +19,7 @@ TagManager:
   - Player
   - Obstacles
   - Enemies
-  - 
+  - Glow
   - 
   - 
   - 
@@ -56,4 +56,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 4108659479
+    locked: 0
+  - name: Glow
+    uniqueID: 3842409143
     locked: 0
