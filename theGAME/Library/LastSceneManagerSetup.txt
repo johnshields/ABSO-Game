@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/L1 SandBox.unity
+- path: Assets/Scenes/Menus/MainSettings.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

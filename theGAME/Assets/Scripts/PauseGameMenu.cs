@@ -22,10 +22,12 @@ public class PauseGameMenu : MonoBehaviour
             if(isPaused)
             {
                 ResumeGame();
+                AudioListener.volume = 1f;
             }
             else
             {
                 PauseTheGame();
+                AudioListener.volume = 0f;
             }
 
         }
@@ -43,12 +45,14 @@ public class PauseGameMenu : MonoBehaviour
         pauseGMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+        AudioListener.volume = 1f;
     }
 
     public void BackMainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+        AudioListener.volume = 1f;
     }
 
     public void ExitGame()

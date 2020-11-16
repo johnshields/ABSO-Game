@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pickup : MonoBehaviour
 {
     [SerializeField] AudioClip pickupSound;
+    private int bolts;
 
     // rotate bolt
     void Update()

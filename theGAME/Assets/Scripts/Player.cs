@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     [SerializeField] public float moveSpeed = 25f;
     [SerializeField] public float jumpHeight = 20f;
     [SerializeField] public float Feet = 20f;
-    [SerializeField] AudioClip playerSound;
     [SerializeField] AudioClip jumpSound;
     CapsuleCollider myBodyCollider;
     BoxCollider bc;
@@ -22,7 +21,6 @@ public class Player : MonoBehaviour
         IsAlive = true;
         rb = GetComponent<Rigidbody>();
         myBodyCollider = GetComponent<CapsuleCollider>();
-        AudioSource.PlayClipAtPoint(playerSound, Camera.main.transform.position);
     }
 
     // Update is called once per frame
@@ -56,6 +54,6 @@ public class Player : MonoBehaviour
 
     private void OnGUI()
     {
-        GUI.Label(new Rect(500, 0, 200, 50), "Bolts : " + bolts);
+        GUI.Label(new Rect(625, 0, 200, 50), "BOLTS : " + bolts);
     }
 }

@@ -10,6 +10,20 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void ToSettings()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainSettings");
+        AudioListener.volume = 1f;
+    }
+
+    public void BackMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
+        AudioListener.volume = 1f;
+    }
+
     public void Multiplayer()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

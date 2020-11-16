@@ -6,21 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menus/MainMenu.unity
     guid: 590d38753be5e184dbca876150b49437
   - enabled: 1
-    path: Assets/Scenes/L1 SandBox.unity
+    path: Assets/Scenes/Slash Screnes/L1 Splash Scene.unity
+    guid: f8248ccc24369154f8e11c086cc3eee0
+  - enabled: 1
+    path: Assets/Scenes/Levels/L1 SandBox.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Boat2NextLevel.unity
+    path: Assets/Scenes/Portals/Boat2NextLevel.unity
     guid: bc8ef1e31612a204bb5e02c8b33df085
   - enabled: 1
-    path: Assets/Scenes/L2 BayouBox.unity
+    path: Assets/Scenes/Slash Screnes/L2 Splash Scene.unity
+    guid: 2c633e1ff8114a14e83958351627bd66
+  - enabled: 1
+    path: Assets/Scenes/Levels/L2 BayouBox.unity
     guid: cce36d8b11e6860449ad0c6dfbd4869b
   - enabled: 1
-    path: Assets/Scenes/Rocket2NextLevel 1.unity
+    path: Assets/Scenes/Portals/Rocket2NextLevel 1.unity
     guid: c10d747e59cd9624ea425b79bb7ca8af
   - enabled: 1
-    path: Assets/Scenes/L3 MarsBox.unity
+    path: Assets/Scenes/Slash Screnes/L3 Splash Scene.unity
+    guid: 74590792f80818f468e20f51fb269fed
+  - enabled: 1
+    path: Assets/Scenes/Levels/L3 MarsBox.unity
     guid: f8313f0f50363704b8ae4360fabecfaf
+  - enabled: 1
+    path: Assets/Scenes/Menus/MainSettings.unity
+    guid: d39ea708f16e33e40814102a665e4ac0
   m_configObjects: {}
