@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     BoxCollider bc;
     Rigidbody rb;
     bool IsAlive;
-    public int points = 0;
+    public int bolts = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +56,6 @@ public class Player : MonoBehaviour
 
     private void OnGUI()
     {
-        GUI.Label(new Rect(600, 0, 200, 50), "Bolts : " + points);
+        GUI.Label(new Rect(500, 0, 200, 50), "Bolts : " + bolts);
     }
 }

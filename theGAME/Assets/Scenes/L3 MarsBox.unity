@@ -12323,6 +12323,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 159400790, guid: e97696ddc6a2a8243a2d1fe7ce746c6d, type: 3}
+      propertyPath: m_Volume
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578920941595863629, guid: e97696ddc6a2a8243a2d1fe7ce746c6d,
+        type: 3}
+      propertyPath: points
+      value: 108
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578920941595863629, guid: e97696ddc6a2a8243a2d1fe7ce746c6d,
+        type: 3}
+      propertyPath: bolts
+      value: 110
+      objectReference: {fileID: 0}
     - target: {fileID: 6442005566916936456, guid: e97696ddc6a2a8243a2d1fe7ce746c6d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12377,10 +12391,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 159400790, guid: e97696ddc6a2a8243a2d1fe7ce746c6d, type: 3}
-      propertyPath: m_Volume
-      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e97696ddc6a2a8243a2d1fe7ce746c6d, type: 3}

@@ -15,7 +15,7 @@ public class goldenBolt : MonoBehaviour
         if (other.name == "Player")
         {
             AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
-            other.GetComponent<Player>().points++;
+            other.GetComponent<Player>().bolts++;
             Destroy(gameObject);
         }
     }
