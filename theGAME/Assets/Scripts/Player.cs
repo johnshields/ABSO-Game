@@ -9,11 +9,13 @@ public class Player : MonoBehaviour
     [SerializeField] public float jumpHeight = 20f;
     [SerializeField] public float Feet = 20f;
     [SerializeField] AudioClip jumpSound;
+    [SerializeField] AudioClip playerSound;
     CapsuleCollider myBodyCollider;
     BoxCollider bc;
     Rigidbody rb;
     bool IsAlive;
     public int bolts = 0;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class Player : MonoBehaviour
         IsAlive = true;
         rb = GetComponent<Rigidbody>();
         myBodyCollider = GetComponent<CapsuleCollider>();
+        AudioSource.PlayClipAtPoint(playerSound, Camera.main.transform.position);
     }
 
     // Update is called once per frame
