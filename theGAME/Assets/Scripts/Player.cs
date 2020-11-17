@@ -52,8 +52,10 @@ public class Player : MonoBehaviour
         }
     }
 
+    // bolt counter
     private void OnGUI()
     {
-        GUI.Label(new Rect(625, 0, 200, 50), "BOLTS : " + bolts);
+        GUI.Label(new Rect(1165, 650, 500, 100), " " + bolts);
     }
 }
+

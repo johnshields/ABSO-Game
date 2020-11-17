@@ -37,6 +37,7 @@ public class PauseGameMenu : MonoBehaviour
     {
         pauseGMenu.SetActive(true);
         Time.timeScale = 0f;
+        AudioListener.volume = 0f;
         isPaused = true;
     }
 
@@ -45,6 +46,13 @@ public class PauseGameMenu : MonoBehaviour
         pauseGMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+        AudioListener.volume = 1f;
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("L1 SandBox");
         AudioListener.volume = 1f;
     }
 
