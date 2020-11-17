@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Portals/Boat2NextLevel.unity
     guid: bc8ef1e31612a204bb5e02c8b33df085
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Slash Screnes/L2 Splash Scene.unity
     guid: 2c633e1ff8114a14e83958351627bd66
   - enabled: 1

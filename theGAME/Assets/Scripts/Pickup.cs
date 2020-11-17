@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Pickup : MonoBehaviour
 {
     [SerializeField] AudioClip pickupSound;
-    private int bolts;
+    private int bolts = 0;
 
     // rotate bolt
     void Update()
@@ -17,11 +17,9 @@ public class Pickup : MonoBehaviour
     // play pickup sound, add score and delete bolt from game
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Player")
-        {
             AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
-            other.GetComponent<Player>().bolts++;
             Destroy(gameObject);
-        }
+            other.GetComponent<BoltCounter>().bolts++;
     }
 }
+

@@ -14,12 +14,12 @@ public class Player : MonoBehaviour
     BoxCollider bc;
     Rigidbody rb;
     bool IsAlive;
-    public int bolts = 0;
-  
+    //static var score : int = 0;
 
     // Start is called before the first frame update
     void Start()
     {
+ 
         IsAlive = true;
         rb = GetComponent<Rigidbody>();
         myBodyCollider = GetComponent<CapsuleCollider>();
@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!IsAlive) { return;  }
+        if (!IsAlive) { return;  }
         Run();
         Jump();
     }
@@ -53,12 +53,6 @@ public class Player : MonoBehaviour
 
             }
         }
-    }
-
-    // bolt counter
-    private void OnGUI()
-    {
-        GUI.Label(new Rect(1165, 650, 500, 100), " " + bolts);
     }
 }
 

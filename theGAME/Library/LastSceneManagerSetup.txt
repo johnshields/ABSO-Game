@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Portals/Boat2NextLevel.unity
+- path: Assets/Scenes/Levels/L2 BayouBox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
