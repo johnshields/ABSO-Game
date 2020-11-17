@@ -6766,16 +6766,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 141.807
       objectReference: {fileID: 0}
-    - target: {fileID: 4342797644183494414, guid: ec3ebe34eb7e2224db44928244365518,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b7f70d23ebeb07948a56eb18dfd48cfb, type: 2}
-    - target: {fileID: 6294216332994500065, guid: ec3ebe34eb7e2224db44928244365518,
-        type: 3}
-      propertyPath: pickupSound
-      value: 
-      objectReference: {fileID: 8300000, guid: fc67de94e99c2dd4aa90b4839acc13de, type: 3}
     - target: {fileID: 2494983946778328750, guid: ec3ebe34eb7e2224db44928244365518,
         type: 3}
       propertyPath: m_Name
@@ -6841,6 +6831,16 @@ PrefabInstance:
       propertyPath: pickupSound
       value: 
       objectReference: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+    - target: {fileID: 4342797644183494414, guid: ec3ebe34eb7e2224db44928244365518,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b7f70d23ebeb07948a56eb18dfd48cfb, type: 2}
+    - target: {fileID: 6294216332994500065, guid: ec3ebe34eb7e2224db44928244365518,
+        type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: fc67de94e99c2dd4aa90b4839acc13de, type: 3}
     m_RemovedComponents:
     - {fileID: 6294216332994500065, guid: ec3ebe34eb7e2224db44928244365518, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ec3ebe34eb7e2224db44928244365518, type: 3}
