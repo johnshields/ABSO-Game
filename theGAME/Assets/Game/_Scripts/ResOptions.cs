@@ -23,6 +23,7 @@ public class ResOptions : MonoBehaviour
         // getting the name of what we pressed
         string index = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
 
+        // change the resolution of the game
         switch(index)
         {
             case "658":
@@ -38,18 +39,13 @@ public class ResOptions : MonoBehaviour
                 Screen.SetResolution(1980, 1080, true);
                 break;
         }
-        SceneManager.LoadScene("MainOptions");
     }
 
-    public void BackOptions()
+    // save setting and return to options
+    public void SAVEandReturn()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainOptions");
         AudioListener.volume = 1f;
-    }
-
-    public void ExitGame()
-    {
-        Application.Quit();
     }
 }
