@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
     public void ToSettings()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainSettings");
+        SceneManager.LoadScene("MainOptions");
         AudioListener.volume = 1f;
     }
 

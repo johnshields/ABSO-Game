@@ -5,11 +5,10 @@ using UnityEngine.UI;
 
 public class BoltCounter : MonoBehaviour
 {
-    private static BoltCounter instance;
-    public static BoltCounter Instance { get { return instance; } }
+    //private static BoltCounter instance;
+    //public static BoltCounter Instance { get { return instance; } }
 
     public int bolts;
-
   
     void Start()
     {
