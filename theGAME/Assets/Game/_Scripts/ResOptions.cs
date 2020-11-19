@@ -42,6 +42,7 @@ public class ResOptions : MonoBehaviour
     }
 
     // save setting and return to options
+    // note only works on an actual build of the game
     public void SAVEandReturn()
     {
         Time.timeScale = 1f;

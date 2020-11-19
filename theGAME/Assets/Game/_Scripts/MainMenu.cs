@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
     public void PlayGame()
     {
-        // delete previous game bolts
-        PlayerPrefs.DeleteAll();
+        // reset bolts back to 0
+        PlayerPrefs.SetInt("bolts", 0);
 
         // play the game
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
