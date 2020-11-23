@@ -6,5 +6,5 @@ Synopsis: Kal has crash landed on earth and has been seperated from his ship.
 Kal has to get back to his ship and fly to mars to return home!
 ###### Made with Unity.
  
- [The progress of the game may be tracked here.](https://github.com/johnshields/Mobile-App-Game/wiki)
+ [The developer diary can be found here.](https://github.com/johnshields/Mobile-App-Game/wiki/Developer-Diary)
  
