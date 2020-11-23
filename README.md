@@ -1,4 +1,4 @@
-# Mobile Applications 3 Project 
+# Mobile Application Development 3 Project 
 ###### G00348436 - John Shields
 # *A Bayou-Space Odyssey*
 ###### 3D Endless runner type mobile game.
