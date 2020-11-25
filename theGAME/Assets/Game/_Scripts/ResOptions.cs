@@ -6,12 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class ResOptions : MonoBehaviour
 {
-
-    void Update()
-    {
-       
-    }
-
     public void SetResolution()
     {
         SetScreenRes();
@@ -26,16 +20,16 @@ public class ResOptions : MonoBehaviour
         // change the resolution of the game
         switch(index)
         {
-            case "658":
+            case "658": // low
                 Screen.SetResolution(1152, 648, true);
                 break;
-            case "720":
+            case "720": // med
                 Screen.SetResolution(1360, 796, true);
                 break;
-            case "1080":
+            case "1080": // HD
                 Screen.SetResolution(1980, 1080, true);
                 break;
-            case "DEFAULT":
+            case "DEFAULT": //default - HD
                 Screen.SetResolution(1980, 1080, true);
                 break;
         }

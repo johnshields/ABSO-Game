@@ -9,7 +9,7 @@ public class BoltCounter : MonoBehaviour
     //public static BoltCounter Instance { get { return instance; } }
 
     public int bolts;
-  
+
     void Start()
     {
         // load bolts
@@ -25,7 +25,7 @@ public class BoltCounter : MonoBehaviour
     // bolt counter
     private void OnGUI()
     {
-        // display bolts
+        // display bolt counter
         Text boltTXT = GameObject.Find("Canvas/Text").GetComponent<Text>();
         boltTXT.text = "BOLTS: " + bolts;
     }

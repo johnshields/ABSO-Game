@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 03d39d19d771ffe49bf733541b7038a8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1fe4bbded23146d45ae0634b07229ce3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowOffset:
@@ -52,7 +52,7 @@ Material:
     m_Colors:
     - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
     - _EmisColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Emission: {r: 0.15082629, g: 0.43382353, b: 0.12759514, a: 0}
+    - _Emission: {r: 0.13725491, g: 0.1254902, b: 0.09411766, a: 0}
     - _Scale: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 0}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

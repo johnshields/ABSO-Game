@@ -65,6 +65,7 @@ public class KeyBindScript : MonoBehaviour
         }
     }
 
+	// change the key letters on the GUI
     void OnGUI()
     {
         if(currentKey != null)
@@ -81,12 +82,14 @@ public class KeyBindScript : MonoBehaviour
         }
     }
 
+	// change the control keys
     public void ChangeKey(GameObject clicked)
     {
         if (currentKey != null)
         {
             currentKey.GetComponent<Image>().color = normal;
         }
+		//change color of key when changed
         currentKey = clicked;
         currentKey.GetComponent<Image>().color = slected;
     }
@@ -101,7 +104,7 @@ public class KeyBindScript : MonoBehaviour
     }
 
     // save control changes and return to options
-    // note only works on an actual build of the game
+    // note may only work on an actual build of the game
     public void SAVEandReturn()
     {
         foreach (var key in keys)

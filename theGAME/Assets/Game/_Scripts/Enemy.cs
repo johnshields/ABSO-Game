@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] AudioClip spider;
+    [SerializeField] AudioClip voice;
     [SerializeField] AudioClip death;
     [SerializeField] private Transform player;
     [SerializeField] private Transform respawnPoint;
@@ -16,15 +16,9 @@ public class Enemy : MonoBehaviour
         BoxCollider bc = gameObject.AddComponent<BoxCollider>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        AudioSource.PlayClipAtPoint(spider, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(voice, Camera.main.transform.position);
         AudioSource.PlayClipAtPoint(death, Camera.main.transform.position);
         player.transform.position = respawnPoint.transform.position;
     }
