@@ -60,5 +60,8 @@ crashlytics-build.properties
 
 "Temp/*" 
 
-// jetbrains rider
+# jetbrains rider
 .idea/
+
+# git files
+.gitattributes

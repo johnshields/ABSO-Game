@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BoxCollider bc = gameObject.AddComponent<BoxCollider>();
+        // BoxCollider bc = gameObject.AddComponent<BoxCollider>();
     }
 
     private void OnTriggerEnter(Collider other)
