@@ -10,7 +10,7 @@ public class KeyBindScript : MonoBehaviour
     public Text up, left, right, down, jump;
 
     private GameObject currentKey;
-
+    
     private Color32 normal = new Color(255, 255, 255, 0);
     private Color32 slected = new Color(155, 0, 255, 50);
 

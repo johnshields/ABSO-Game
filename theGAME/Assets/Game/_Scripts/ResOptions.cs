@@ -20,8 +20,8 @@ public class ResOptions : MonoBehaviour
         // change the resolution of the game
         switch(index)
         {
-            case "658": // low
-                Screen.SetResolution(1152, 648, true);
+            case "480": // low
+                Screen.SetResolution(640, 480, true);
                 break;
             case "720": // med
                 Screen.SetResolution(1360, 796, true);
