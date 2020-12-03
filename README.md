@@ -1,10 +1,9 @@
-# Mobile Application Development 3 Project 
+# Mobile Application Development 3 Project
 ###### G00348436 - John Shields
 # *A Bayou-Space Odyssey*
-###### 3D Endless runner type mobile game.
-Synopsis: Kal has crash landed on earth and has been seperated from his ship. 
+###### 3D runner mobile game.
+Synopsis: Kal has crash landed on earth and has been separated from his ship.
 Kal has to get back to his ship and fly to mars to return home!
 ###### Made with Unity.
- 
+
  [The developer diary can be found here.](https://github.com/johnshields/Mobile-App-Game/wiki/Developer-Diary)
- 

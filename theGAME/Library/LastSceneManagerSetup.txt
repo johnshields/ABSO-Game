@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game/_Scenes/Levels/L2 BayouBox.unity
+- path: Assets/Game/_Scenes/Levels/L3 MarsBox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
