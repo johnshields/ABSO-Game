@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game/_Scenes/Menus/ControlOptions.unity
+- path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P1-L2 BayouBox 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
