@@ -20,7 +20,7 @@ public class P2pickup : MonoBehaviour
             Destroy(gameObject);
 
             // add to the bolt counter
-            other.GetComponent<BoltCounter>().bolts+=1;
+            other.GetComponent<P2boltCounter>().P2bolts+=1;
     }
 }
 

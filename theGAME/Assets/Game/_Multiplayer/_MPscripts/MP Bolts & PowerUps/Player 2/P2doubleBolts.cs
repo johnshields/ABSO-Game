@@ -20,7 +20,7 @@ public class P2doubleBolts : MonoBehaviour
         Destroy(gameObject);
 
         // add to the bolt counter
-       // other.GetComponent<BoltCounter>().bolts+=2;
+       other.GetComponent<P2boltCounter>().P2bolts+=2;
     }
 }
 

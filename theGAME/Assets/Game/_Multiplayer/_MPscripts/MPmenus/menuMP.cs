@@ -31,6 +31,13 @@ public class menuMP : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
         AudioListener.volume = 1f;
     }
+ 
+    public void MPmenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MultiplayerMenu");
+        AudioListener.volume = 1f;
+    }
 
     public void ExitGame()
     {

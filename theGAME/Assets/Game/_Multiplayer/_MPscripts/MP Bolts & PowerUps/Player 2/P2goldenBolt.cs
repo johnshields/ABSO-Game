@@ -15,7 +15,7 @@ public class P2goldenBolt : MonoBehaviour
         if (other.name == "Player")
         {
             AudioSource.PlayClipAtPoint(P2pickupSound, Camera.main.transform.position);
-            other.GetComponent<BoltCounter>().bolts += 10;
+            other.GetComponent<P2boltCounter>().P2bolts += 10;
             Destroy(gameObject);
         }
     }
