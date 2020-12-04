@@ -32,7 +32,7 @@ public class MainMenu : MonoBehaviour
 
     public void Multiplayer()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("MultiplayerMenu");
     }
 
     public void ExitGame()

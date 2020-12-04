@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/_Scenes/Menus/ResOptions.unity
     guid: d39ea708f16e33e40814102a665e4ac0
+  - enabled: 1
+    path: Assets/Game/_Scenes/Menus/MultiplayerMenu.unity
+    guid: ff66fa1c6107a8646b298923a4cfa532
   m_configObjects: {}
