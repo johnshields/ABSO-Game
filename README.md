@@ -7,7 +7,7 @@ Single Player synopsis: Kal has crash landed on earth and has been separated fro
 Kal has to get back to his ship and fly to mars to return home!
 
 Multiplayer synopsis: Play against a friend and decided between the both of you who plays as Kal and Cronk. 
-Fight through all 3 levels and collect as many Bolts as you can!
+Fight through all 3 levels and collect as many Bolts as you can! Whoever Collects the most Bolts wins!
 
 ###### Made with Unity.
 
