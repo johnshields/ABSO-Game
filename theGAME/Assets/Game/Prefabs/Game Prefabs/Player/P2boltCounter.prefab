@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290, y: 136}
+  m_AnchoredPosition: {x: -290, y: 115}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &596145222
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'BOLTS:'
+  m_Text: 'PLAYER 2 BOLTS: 000'
 --- !u!1 &816165975
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,7 +111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -288, y: 145.4}
+  m_AnchoredPosition: {x: -288, y: 125}
   m_SizeDelta: {x: 215, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &816165978
@@ -173,7 +173,7 @@ PrefabInstance:
     - target: {fileID: 6646256707814231950, guid: 463ee5156c64b474b81c36bac0b768b3,
         type: 3}
       propertyPath: m_Name
-      value: 'P2boltCounter '
+      value: P2boltCounter
       objectReference: {fileID: 0}
     - target: {fileID: 6646256707814231953, guid: 463ee5156c64b474b81c36bac0b768b3,
         type: 3}
@@ -240,15 +240,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 136
       objectReference: {fileID: 0}
-    - target: {fileID: 6646256709006400254, guid: 463ee5156c64b474b81c36bac0b768b3,
-        type: 3}
-      propertyPath: m_Name
-      value: bolts
-      objectReference: {fileID: 0}
     - target: {fileID: 1605644555500493082, guid: 463ee5156c64b474b81c36bac0b768b3,
         type: 3}
       propertyPath: m_Name
       value: P2canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646256709006400254, guid: 463ee5156c64b474b81c36bac0b768b3,
+        type: 3}
+      propertyPath: m_Name
+      value: bolts
       objectReference: {fileID: 0}
     - target: {fileID: 6646256709006400128, guid: 463ee5156c64b474b81c36bac0b768b3,
         type: 3}

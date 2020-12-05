@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.29629105, g: 0.24454755, b: 0.22886425, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13006,6 +13006,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1503214536, guid: 469323c9a1d6f104f8080e60a96827bd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201307104, guid: 469323c9a1d6f104f8080e60a96827bd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201307105, guid: 469323c9a1d6f104f8080e60a96827bd, type: 3}
+      propertyPath: m_Text
+      value: 'PLAYER 1 BOLTS: 000'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 469323c9a1d6f104f8080e60a96827bd, type: 3}
 --- !u!1001 &1207529157502937750
@@ -13074,6 +13086,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816165976, guid: 5f1e6fa34c19e1e4fbbb6bba9ce17429, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 596145220, guid: 5f1e6fa34c19e1e4fbbb6bba9ce17429, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 190
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1808925498, guid: 5f1e6fa34c19e1e4fbbb6bba9ce17429, type: 3}
