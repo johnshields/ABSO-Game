@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.SetInt("bolts", 0);
 
         // play the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+         SceneManager.LoadScene("L1 Splash Screen");
     }
 
     public void ToSettings()
