@@ -1,7 +1,7 @@
 ﻿/**
     * John Shields - G00348436
     * Menu Audio Script
-    * Play the Main Menu Music throughout all menus
+    * Play the Main Menu Music globably throughout all menus
 */
 
 using UnityEngine;
@@ -27,5 +27,5 @@ public class MenuAudio : MonoBehaviour
             instance = this;
         }
         DontDestroyOnLoad(this.gameObject);
-    }
+    } 
 }

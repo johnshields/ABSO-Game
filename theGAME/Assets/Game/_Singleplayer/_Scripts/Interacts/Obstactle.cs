@@ -12,7 +12,7 @@ public class Obstactle : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        // when the Player hits obstacle play sound
+        // when the Player hits obstacle play sound 
         AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position);
     }
 }

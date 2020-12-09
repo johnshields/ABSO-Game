@@ -17,7 +17,6 @@ public class lastBolts : MonoBehaviour
         // load Player Bolts
         bolts = PlayerPrefs.GetInt("bolts");
     }
-    // bolt counter
 
     // display Bolt Counter
     private void OnGUI()
