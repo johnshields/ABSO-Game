@@ -4,7 +4,7 @@
 #### John Shields - G00348436 (Game Developer)
 
 # *A Bayou-Space Odyssey*
-###### 3D runner mobile game.
+###### A 3D runner game.
 
 Single Player synopsis: Kal has crash landed on earth and has been separated from his ship.
 Kal has to get back to his ship and fly to mars to return home!
