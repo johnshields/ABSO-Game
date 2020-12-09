@@ -1,5 +1,8 @@
 # Mobile Application Development 3 Project
-###### G00348436 - John Shields
+
+#### Éoghan Muldoon - G00358767 (Game Designer)
+#### John Shields - G00348436 (Game Developer)
+
 # *A Bayou-Space Odyssey*
 ###### 3D runner mobile game.
 
