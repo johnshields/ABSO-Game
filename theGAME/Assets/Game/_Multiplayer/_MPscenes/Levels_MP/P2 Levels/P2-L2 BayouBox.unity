@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &22784192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2828,7 +2828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &83925175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3106,7 +3106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &107938796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3634,7 +3634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &125375590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4431,7 +4431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &152468081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2627957578334202834, guid: ec3ebe34eb7e2224db44928244365518,
@@ -4958,7 +4958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &162345470 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 204601f7f986c204c9e27d4285f4c425,
@@ -5124,9 +5124,9 @@ Transform:
   m_LocalPosition: {x: 500, y: 9.8726425, z: 1500}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1564314039}
   - {fileID: 1834966493}
   - {fileID: 1573405912}
+  - {fileID: 1564314039}
   - {fileID: 1803575963}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -5414,7 +5414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &175558915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5891,7 +5891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &196709893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8147,7 +8147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &281603635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8335,7 +8335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: ce06be9674e11fa4f91f45548f5e9112, type: 3}
+  voice: {fileID: 8300000, guid: ba4a2107d9de47e4f8dd40d40dc96693, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 721009656}
@@ -8518,7 +8518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &291516549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8791,7 +8791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &293072476 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 204601f7f986c204c9e27d4285f4c425,
@@ -9164,7 +9164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &297865879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b,
@@ -12070,7 +12070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7378d51a33c16d64bb6b4734df34aaa8, type: 3}
+  voice: {fileID: 8300000, guid: a8d893f5b6439014e9fa8c547e05fd27, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 2068834844}
@@ -12245,7 +12245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &368084968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b,
@@ -12937,7 +12937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &377293979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15181,7 +15181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &442292318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15848,7 +15848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &455117353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19203,7 +19203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &544660335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20589,7 +20589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &589234615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24470,7 +24470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &711911083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24633,7 +24633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 99394f019a3b09e4da7f8a7551bc606d, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 1018452271}
@@ -25078,7 +25078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: a8d893f5b6439014e9fa8c547e05fd27, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 1535936632}
@@ -27130,7 +27130,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300001, guid: cc0bf72c5763743468b1ee3d764d3d04,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: c31476b79b432264c8caf79a40b2e7d2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 557f6ef63237211499419bbd2843ca8d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
@@ -29346,7 +29346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &874890346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8001200140432209588, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
@@ -29365,7 +29365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &878138343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29478,7 +29478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &880759694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29974,7 +29974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &897372353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34272,7 +34272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1057547743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34953,7 +34953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &1088089871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b,
@@ -34997,7 +34997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1096378339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38071,7 +38071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1226951717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38459,7 +38459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1235559561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38547,7 +38547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1238797531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39299,7 +39299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1258482784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43755,7 +43755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 99394f019a3b09e4da7f8a7551bc606d, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 1400549857}
@@ -44059,7 +44059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1407319735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48260,7 +48260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7378d51a33c16d64bb6b4734df34aaa8, type: 3}
+  voice: {fileID: 8300000, guid: a8d893f5b6439014e9fa8c547e05fd27, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 1400549857}
@@ -48483,7 +48483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1535399044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49263,7 +49263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 99394f019a3b09e4da7f8a7551bc606d, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 2068834844}
@@ -49478,7 +49478,7 @@ PrefabInstance:
     - target: {fileID: 6975916541440705925, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6975916541440705925, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
@@ -49495,6 +49495,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6975916541440705923, guid: 336f56c3580af1545af08c3623615f5f,
+        type: 3}
+      propertyPath: powerUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10130a35de1658d4585527b9cf8d5924, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336f56c3580af1545af08c3623615f5f, type: 3}
 --- !u!4 &1573405912 stripped
@@ -49717,7 +49722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1583462832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50159,7 +50164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1619962898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55707,7 +55712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1796261882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55721,7 +55726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4605997215203274, guid: 3ab164258b5613d4caa3f570831d4ca7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 509.31
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4605997215203274, guid: 3ab164258b5613d4caa3f570831d4ca7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -55801,7 +55806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 99394f019a3b09e4da7f8a7551bc606d, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 943465403}
@@ -56255,7 +56260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1808652716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56748,7 +56753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 0}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1820163729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57482,7 +57487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7378d51a33c16d64bb6b4734df34aaa8, type: 3}
+  voice: {fileID: 8300000, guid: a8d893f5b6439014e9fa8c547e05fd27, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 943465403}
@@ -57859,7 +57864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1842726914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59624,7 +59629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: ce06be9674e11fa4f91f45548f5e9112, type: 3}
+  voice: {fileID: 8300000, guid: ba4a2107d9de47e4f8dd40d40dc96693, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 1897800384}
@@ -59759,7 +59764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &1895943958
 GameObject:
   m_ObjectHideFlags: 0
@@ -62974,7 +62979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: a8d893f5b6439014e9fa8c547e05fd27, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 47445069}
@@ -63122,7 +63127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 99394f019a3b09e4da7f8a7551bc606d, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
   respawnPoint: {fileID: 1151250250}
@@ -69092,7 +69097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d874336017fa24e8567ed98ebef825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P2doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P2doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &2135961861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69741,22 +69746,22 @@ PrefabInstance:
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.8735145e-37
+      value: 7.64e-43
       objectReference: {fileID: 0}
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.7927e-37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.880933e-37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.8809333e-37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 124860487924523167, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
@@ -70113,6 +70118,10 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 1911742037}
+    - target: {fileID: 783520453, guid: 4f0fd7d5ae0059f4dbaf77d50293c1e4, type: 3}
+      propertyPath: voice
+      value: 
+      objectReference: {fileID: 8300000, guid: a8d893f5b6439014e9fa8c547e05fd27, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f0fd7d5ae0059f4dbaf77d50293c1e4, type: 3}
 --- !u!1001 &3358221291691221903
@@ -70234,7 +70243,7 @@ PrefabInstance:
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -70308,7 +70317,7 @@ PrefabInstance:
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -70567,6 +70576,10 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 257808046}
+    - target: {fileID: 980908079, guid: 259abf7906ad3c3459a54b835245b6b3, type: 3}
+      propertyPath: voice
+      value: 
+      objectReference: {fileID: 8300000, guid: 99394f019a3b09e4da7f8a7551bc606d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 259abf7906ad3c3459a54b835245b6b3, type: 3}
 --- !u!1001 &8924431925630412997

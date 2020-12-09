@@ -11,6 +11,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: portalEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
       propertyPath: m_LocalPosition.x
       value: 499.86
@@ -67,62 +123,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 400008, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400008, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400008, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
       propertyPath: InitialModule.startRotationX.minMaxState
       value: 3
@@ -131,6 +131,18 @@ PrefabInstance:
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.6132076
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.1533019
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.46396178
+      objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
       propertyPath: InitialModule.startRotationX.minMaxState
       value: 3
@@ -138,6 +150,18 @@ PrefabInstance:
     - target: {fileID: 19800002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.5660378
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.1254895
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.42360333
       objectReference: {fileID: 0}
     - target: {fileID: 19800004, guid: a8d006cd19a6a1b4b95ac07a6075d297, type: 3}
       propertyPath: InitialModule.startRotationX.minMaxState

@@ -3581,7 +3581,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300001, guid: cc0bf72c5763743468b1ee3d764d3d04,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3d6c0ec1fcf767741b4b9d847c02932b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 229d1f236cac2e944a1c6d710cc9c749, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
@@ -12074,6 +12074,41 @@ PrefabInstance:
       propertyPath: powerUpSound
       value: 
       objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
+    - target: {fileID: 1660673948768368167, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948840975637, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948345825522, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948560617469, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948599202374, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948128367309, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673947478733523, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd93b03faa59b014baf9e417022bc7bd, type: 3}
 --- !u!1001 &6752889749473667766
@@ -12576,7 +12611,7 @@ PrefabInstance:
     - target: {fileID: 2010107273, guid: 2e55aab6225063446ae4eca11823f29e, type: 3}
       propertyPath: voice
       value: 
-      objectReference: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+      objectReference: {fileID: 8300000, guid: 7378d51a33c16d64bb6b4734df34aaa8, type: 3}
     - target: {fileID: 2010107274, guid: 2e55aab6225063446ae4eca11823f29e, type: 3}
       propertyPath: m_Size.y
       value: 1.4990668

@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -337,7 +337,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1463481911}
     m_Modifications:
     - target: {fileID: 4607704137601198719, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -347,17 +347,17 @@ PrefabInstance:
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1273575
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2000
+      value: 3500
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -540,7 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -838,26 +838,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 886145632}
-  - {fileID: 697039679}
-  - {fileID: 1903066023}
-  - {fileID: 1845464037}
-  - {fileID: 364152955}
-  - {fileID: 1957231904}
-  - {fileID: 350758995}
-  - {fileID: 1721395987}
-  - {fileID: 956110906}
-  - {fileID: 1808236215}
-  - {fileID: 1061050168}
-  - {fileID: 2051534494}
-  - {fileID: 198806647}
-  - {fileID: 894392748}
-  - {fileID: 1021073957}
-  - {fileID: 330734945}
-  - {fileID: 1084097003}
-  - {fileID: 1016742151}
-  - {fileID: 1395122295}
-  - {fileID: 1200428473}
+  - {fileID: 431951926}
   - {fileID: 174723705}
   - {fileID: 425796372}
   - {fileID: 961823975}
@@ -2553,7 +2534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -4709,7 +4690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -5131,7 +5112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -6112,27 +6093,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1961588634}
     m_Modifications:
     - target: {fileID: 6663777639238557489, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_Name
-      value: Double Bolts 2
+      value: 'Double Bolts '
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3082886
+      value: 7.3584595
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.697754
+      value: 5.1962686
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -91
+      value: 1359.7367
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -6157,7 +6138,7 @@ PrefabInstance:
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -6179,6 +6160,100 @@ PrefabInstance:
       propertyPath: powerUpSound
       value: 
       objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
+    - target: {fileID: 1977049031, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 49580523, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2069432122, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 912836795, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2131584584, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 884510354, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 404772580, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2032460131, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1586170445, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 244895321, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1201431803, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2120173000, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 862738220, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 403911535, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 878619880, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1045962565, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638929163274, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638040620597, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638307300481, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638496917818, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777637528693714, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777637735514336, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
     - target: {fileID: 6663777639561987090, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6745,7 +6820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -6859,7 +6934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -8253,7 +8328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -9107,7 +9182,7 @@ Transform:
   - {fileID: 1477834819}
   - {fileID: 1447008815}
   m_Father: {fileID: 9832721}
-  m_RootOrder: 20
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &174932996
 PrefabInstance:
@@ -9300,7 +9375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -9517,7 +9592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -10746,7 +10821,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -10756,17 +10831,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 510.6
+      value: 0.9333395
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 548.6
+      value: 46.200012
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -10776,7 +10851,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -10786,7 +10861,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -10811,17 +10886,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -10864,7 +10939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -10978,7 +11053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -12187,7 +12262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -13274,7 +13349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -14415,7 +14490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -15162,7 +15237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -15424,7 +15499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -15970,7 +16045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -16161,7 +16236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -16883,7 +16958,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -16891,7 +16966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 510.3
+      value: 1.0333456
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16899,7 +16974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 576.5
+      value: 36.900005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -16907,7 +16982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -16915,7 +16990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -16935,15 +17010,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -16975,7 +17050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -17239,7 +17314,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -17249,17 +17324,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 500.1
+      value: 4.4333396
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 782.8
+      value: -31.86666
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -17269,7 +17344,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -17279,7 +17354,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -17304,17 +17379,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -17357,7 +17432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -17816,7 +17891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -17930,7 +18005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -17965,7 +18040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -18803,7 +18878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -21004,7 +21079,7 @@ Transform:
   - {fileID: 1774818607}
   - {fileID: 674481555}
   m_Father: {fileID: 9832721}
-  m_RootOrder: 21
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &425894061
 PrefabInstance:
@@ -21465,7 +21540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -21850,6 +21925,56 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 430096607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &431951925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431951926}
+  m_Layer: 0
+  m_Name: Enemies (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431951926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431951925}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 513.4, y: 0, z: 687.2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children:
+  - {fileID: 886145632}
+  - {fileID: 697039679}
+  - {fileID: 1903066023}
+  - {fileID: 1845464037}
+  - {fileID: 364152955}
+  - {fileID: 1957231904}
+  - {fileID: 350758995}
+  - {fileID: 1721395987}
+  - {fileID: 956110906}
+  - {fileID: 1808236215}
+  - {fileID: 1061050168}
+  - {fileID: 2051534494}
+  - {fileID: 198806647}
+  - {fileID: 894392748}
+  - {fileID: 1021073957}
+  - {fileID: 330734945}
+  - {fileID: 1084097003}
+  - {fileID: 1016742151}
+  - {fileID: 1395122295}
+  - {fileID: 1200428473}
+  m_Father: {fileID: 9832721}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &437206028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22703,7 +22828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -22766,7 +22891,7 @@ Transform:
   - {fileID: 968026060}
   - {fileID: 251608165}
   m_Father: {fileID: 9832721}
-  m_RootOrder: 24
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &466423613
 PrefabInstance:
@@ -23169,7 +23294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1375660050}
@@ -23971,7 +24096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -24191,7 +24316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -24305,7 +24430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -27191,7 +27316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -27883,7 +28008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -29401,7 +29526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -30181,7 +30306,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -30191,17 +30316,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 502.5753
+      value: 3.6082458
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 210.61823
+      value: 158.8606
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -30211,7 +30336,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -30221,7 +30346,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -30246,17 +30371,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -30280,7 +30405,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1463481911}
     m_Modifications:
     - target: {fileID: 4607704137601198719, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -30290,17 +30415,17 @@ PrefabInstance:
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5473576
+      value: 11.42
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -999.74
+      value: 500.26
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -31827,7 +31952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -31941,7 +32066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -32776,7 +32901,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -32784,7 +32909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 500.54657
+      value: 4.284485
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -32792,7 +32917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 315.2
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -32800,7 +32925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -32808,7 +32933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -32828,15 +32953,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -32868,7 +32993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -34688,7 +34813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -35230,7 +35355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1375660050}
@@ -35851,7 +35976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -35965,7 +36090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -36215,7 +36340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -36635,7 +36760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -36983,7 +37108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -37281,7 +37406,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300001, guid: cc0bf72c5763743468b1ee3d764d3d04,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: deaff369badff7249b157a83fff01ed2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e975a494db1ba774e937cc8475f996a0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
@@ -37526,7 +37651,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1463481911}
     m_Modifications:
     - target: {fileID: 4607704137601198719, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -37536,17 +37661,17 @@ PrefabInstance:
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.06
+      value: 10.932642
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -701.6
+      value: 798.4
       objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198712, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
@@ -37592,18 +37717,18 @@ PrefabInstance:
         type: 3}
       propertyPath: powerUpSound
       value: 
-      objectReference: {fileID: 8300000, guid: 05356c2ee558223438e8010383bca65b, type: 3}
-    - target: {fileID: 4607704137601198715, guid: f62d378dad123384281de061bb9a3134,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 10130a35de1658d4585527b9cf8d5924, type: 3}
     - target: {fileID: 4607704137601198713, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 62b8c4640a70a2a41bd3ca55410a0193,
         type: 3}
+    - target: {fileID: 4607704137601198715, guid: f62d378dad123384281de061bb9a3134,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62d378dad123384281de061bb9a3134, type: 3}
 --- !u!4 &797917611 stripped
@@ -38694,7 +38819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -39228,7 +39353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -39786,7 +39911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -40282,7 +40407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -40630,7 +40755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -41088,7 +41213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -41204,7 +41329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -41786,7 +41911,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_Name
@@ -41794,7 +41919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 490.1
+      value: 7.766673
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.y
@@ -41802,23 +41927,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 738.3
+      value: -17.033325
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_RootOrder
@@ -41838,15 +41963,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 1.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 1.6666667
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
@@ -41874,7 +41999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -43030,7 +43155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -43790,7 +43915,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -43798,7 +43923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 510.3
+      value: 1.0333456
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -43806,7 +43931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 632.8
+      value: 18.133343
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -43814,7 +43939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -43822,7 +43947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -43842,15 +43967,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -43882,7 +44007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -43951,7 +44076,7 @@ Transform:
   - {fileID: 1185866346}
   - {fileID: 925151643}
   m_Father: {fileID: 9832721}
-  m_RootOrder: 22
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &962234637
 PrefabInstance:
@@ -45187,7 +45312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -45534,7 +45659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -45648,7 +45773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -46992,7 +47117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -47134,7 +47259,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -47142,7 +47267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 513.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -47150,7 +47275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 687.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -47158,7 +47283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -47166,7 +47291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -47186,15 +47311,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -47226,7 +47351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -47424,7 +47549,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -47434,17 +47559,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 514.69
+      value: -0.42999268
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 942.3
+      value: -85.033325
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -47454,7 +47579,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -47464,7 +47589,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -47489,17 +47614,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -47542,7 +47667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -47656,7 +47781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -48328,7 +48453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -49034,7 +49159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -49056,7 +49181,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -49064,7 +49189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 489.65
+      value: 7.916677
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -49072,7 +49197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 448.23
+      value: 79.65667
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -49080,7 +49205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -49088,7 +49213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -49108,15 +49233,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -49148,7 +49273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -50175,7 +50300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -50337,7 +50462,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -50345,7 +50470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 511
+      value: 0.8000082
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50353,7 +50478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 748.8
+      value: -20.533325
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -50361,7 +50486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -50369,7 +50494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -50389,15 +50514,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -50429,7 +50554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -50637,7 +50762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -52099,7 +52224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -52953,7 +53078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1375660050}
@@ -53589,7 +53714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -54339,7 +54464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -55275,7 +55400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -55408,27 +55533,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1961588634}
     m_Modifications:
     - target: {fileID: 6663777639238557489, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_Name
-      value: Double Bolts 2 (2)
+      value: Double Bolts (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3082886
+      value: 7.3584595
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.697754
+      value: 5.1962686
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2510
+      value: 3960.7368
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -55453,7 +55578,7 @@ PrefabInstance:
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -55475,6 +55600,100 @@ PrefabInstance:
       propertyPath: powerUpSound
       value: 
       objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
+    - target: {fileID: 1977049031, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 49580523, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2069432122, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 912836795, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2131584584, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 884510354, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 404772580, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2032460131, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1586170445, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 244895321, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1201431803, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2120173000, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 862738220, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 403911535, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 878619880, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1045962565, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638929163274, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638040620597, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638307300481, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638496917818, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777637528693714, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777637735514336, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
     - target: {fileID: 6663777639561987090, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55948,7 +56167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -56326,7 +56545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -59998,7 +60217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -60252,7 +60471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -60496,7 +60715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -60776,7 +60995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -61729,7 +61948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -62527,7 +62746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -63961,7 +64180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -64544,7 +64763,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -64554,17 +64773,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 492.3
+      value: 7.0333457
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 282.6
+      value: 134.86667
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -64574,7 +64793,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -64584,7 +64803,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -64609,17 +64828,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -64662,7 +64881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -64802,7 +65021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -65106,7 +65325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -65436,7 +65655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -65576,7 +65795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -65970,7 +66189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -66711,7 +66930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -67671,7 +67890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -67713,6 +67932,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4379947, y: 1.3230292, z: 2.4365401}
   m_Center: {x: 0.45739305, y: 0.56713897, z: -0.06051979}
+--- !u!1 &1463481910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463481911}
+  m_Layer: 0
+  m_Name: Invincible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1463481911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463481910}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -500, y: -9.8726425, z: -1500}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 637614374}
+  - {fileID: 797917611}
+  - {fileID: 6193972}
+  - {fileID: 1858709292}
+  m_Father: {fileID: 1764569858}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1471459992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68445,7 +68698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -68683,7 +68936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -68797,7 +69050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -69139,7 +69392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -69455,7 +69708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -69888,14 +70141,6 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 214707442, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 360
-      objectReference: {fileID: 0}
-    - target: {fileID: 214707442, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 185
-      objectReference: {fileID: 0}
     - target: {fileID: 6752889747836392819, guid: 1160cab487cb99f4893589307256a4b2,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -69920,6 +70165,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 214707442, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 214707442, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 185
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
@@ -71970,7 +72223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -72575,7 +72828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -73223,7 +73476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -73299,7 +73552,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561946532}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -75273,7 +75526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -76085,27 +76338,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1961588634}
     m_Modifications:
     - target: {fileID: 6663777639238557489, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_Name
-      value: Double Bolts 2 (1)
+      value: Double Bolts (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3082886
+      value: 7.3584595
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.697754
+      value: 5.1962686
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2000
+      value: 3450.7368
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -76130,7 +76383,7 @@ PrefabInstance:
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6663777639238557502, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
@@ -76152,6 +76405,100 @@ PrefabInstance:
       propertyPath: powerUpSound
       value: 
       objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
+    - target: {fileID: 1977049031, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 49580523, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2069432122, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 912836795, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2131584584, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 884510354, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 404772580, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2032460131, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1586170445, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 244895321, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1201431803, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 2120173000, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 862738220, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 403911535, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 878619880, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1045962565, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b, type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638929163274, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638040620597, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638307300481, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777638496917818, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777637528693714, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 6663777637735514336, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
     - target: {fileID: 6663777639561987090, guid: 4ca1caaafa25cbf4cb6a5cfa352bb04b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76840,7 +77187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -78086,7 +78433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -82503,7 +82850,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -82513,17 +82860,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 488.74
+      value: 8.220012
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 942.3
+      value: -85.033325
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -82533,7 +82880,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -82543,7 +82890,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -82568,17 +82915,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -84355,7 +84702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -84793,13 +85140,8 @@ Transform:
   m_LocalPosition: {x: 500, y: 9.8726425, z: 1500}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 637614374}
-  - {fileID: 797917611}
-  - {fileID: 6193972}
-  - {fileID: 1858709292}
-  - {fileID: 118219706}
-  - {fileID: 1614287269}
-  - {fileID: 1187348021}
+  - {fileID: 1961588634}
+  - {fileID: 1463481911}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -85582,7 +85924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -86583,7 +86925,7 @@ Transform:
   - {fileID: 870442807}
   - {fileID: 361341768}
   m_Father: {fileID: 9832721}
-  m_RootOrder: 23
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1805262266
 PrefabInstance:
@@ -86730,7 +87072,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -86738,7 +87080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 490
+      value: 7.8000083
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -86746,7 +87088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 684.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -86754,7 +87096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -86762,7 +87104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -86782,15 +87124,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -86822,7 +87164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -86962,7 +87304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -88307,7 +88649,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -88315,7 +88657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 503.34
+      value: 3.3533428
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -88323,7 +88665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 518.72
+      value: 56.160015
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -88331,7 +88673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -88339,7 +88681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -88359,15 +88701,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -88498,7 +88840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -88812,7 +89154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -88936,7 +89278,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_Name
@@ -88944,7 +89286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 498.52512
+      value: 4.958303
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.y
@@ -88952,23 +89294,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 850
+      value: -54.266663
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.21643952
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.97629607
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.21643952
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.97629607
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_RootOrder
@@ -88988,15 +89330,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 1.6666679
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 1.6666676
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
@@ -89024,7 +89366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -89980,7 +90322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -90094,7 +90436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -92228,7 +92570,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_Name
@@ -92236,7 +92578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 498.52512
+      value: 4.958303
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.y
@@ -92244,23 +92586,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 375
+      value: 104.06667
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.21643952
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.97629607
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.21643952
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.97629607
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_RootOrder
@@ -92280,15 +92622,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 1.6666679
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 400116, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 1.6666676
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
@@ -92310,7 +92652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -94246,7 +94588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -95014,7 +95356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -95113,7 +95455,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -95123,17 +95465,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 494.16
+      value: 6.4133406
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20000076
+      value: 0.06666692
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 599.04
+      value: 29.386679
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -95143,7 +95485,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -95153,7 +95495,7 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -95178,17 +95520,17 @@ PrefabInstance:
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 2.3333335
       objectReference: {fileID: 0}
     - target: {fileID: 7673487251510747452, guid: c98043d57e0190845b790d7b92990bee,
         type: 3}
@@ -95231,7 +95573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -95388,6 +95730,39 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1960603988}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1961588633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1961588634}
+  m_Layer: 0
+  m_Name: Double Bolts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1961588634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961588633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0501709, y: -7.8940225, z: -1450.7367}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 118219706}
+  - {fileID: 1614287269}
+  - {fileID: 1187348021}
+  m_Father: {fileID: 1764569858}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1964796240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96399,7 +96774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 685328427}
@@ -97595,7 +97970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -99657,7 +100032,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -99665,7 +100040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 500.54657
+      value: 4.284485
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -99673,7 +100048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 101.2
+      value: 195.33334
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -99681,7 +100056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -99689,7 +100064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -99709,15 +100084,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -101134,7 +101509,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 9832721}
+    m_TransformParent: {fileID: 431951926}
     m_Modifications:
     - target: {fileID: 100000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Name
@@ -101142,7 +101517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 510.65
+      value: 0.9166769
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -101150,7 +101525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 448.23
+      value: 79.65667
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.x
@@ -101158,7 +101533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.z
@@ -101166,7 +101541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_RootOrder
@@ -101186,15 +101561,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 5be2c6dc7d0cd11418701026bf971b37, type: 3}
       propertyPath: m_Controller
@@ -101226,7 +101601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 165809159}
@@ -101756,7 +102131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -102775,7 +103150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 2692b673c0bebd141ad274fd4395d37b, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -105822,7 +106197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 2040293571}
@@ -105936,7 +106311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 1289015088}
@@ -106190,7 +106565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: e280ad3e76419d7469814c1bff583cfb, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 139147955}
@@ -106756,7 +107131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd096c2e3d264147acba38e8219e1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+  voice: {fileID: 8300000, guid: 034a5caa9a5cf4141954a232bbfd3a45, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 1546319282}
   respawnPoint: {fileID: 640087775}
@@ -107035,7 +107410,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1764569858}
+    m_TransformParent: {fileID: 1463481911}
     m_Modifications:
     - target: {fileID: 6975916541440705922, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
@@ -107045,17 +107420,17 @@ PrefabInstance:
     - target: {fileID: 6975916541440705925, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 6975916541440705925, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1273575
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6975916541440705925, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2300
+      value: 3800
       objectReference: {fileID: 0}
     - target: {fileID: 6975916541440705925, guid: 336f56c3580af1545af08c3623615f5f,
         type: 3}
@@ -107097,6 +107472,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6975916541440705923, guid: 336f56c3580af1545af08c3623615f5f,
+        type: 3}
+      propertyPath: powerUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10130a35de1658d4585527b9cf8d5924, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336f56c3580af1545af08c3623615f5f, type: 3}
 --- !u!1001 &7347858233669952397
@@ -107114,12 +107494,12 @@ PrefabInstance:
     - target: {fileID: 5865498659352246790, guid: 7517b9eaebe9a56489678c3ffdfdb185,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5865498659352246790, guid: 7517b9eaebe9a56489678c3ffdfdb185,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5865498659352246790, guid: 7517b9eaebe9a56489678c3ffdfdb185,
         type: 3}

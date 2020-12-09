@@ -315,7 +315,7 @@ RectTransform:
   m_Children:
   - {fileID: 1289421278}
   m_Father: {fileID: 1340325775}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -412,6 +412,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650519787}
   m_CullTransparentMesh: 0
+--- !u!1001 &859287871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1340325775}
+    m_Modifications:
+    - target: {fileID: 5591680553866592674, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Name
+      value: level
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592672, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Text
+      value: 'LEVEL 1 - THE DESERT
+
+        NORMAL'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b68a9b8de9a992140b909f81aafb9214, type: 3}
+--- !u!224 &859287872 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+    type: 3}
+  m_PrefabInstance: {fileID: 859287871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1235865617
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
+  m_AnchoredPosition: {x: 0, y: -130}
   m_SizeDelta: {x: 1000, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1235865619
@@ -480,19 +612,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Kal has crash landed on earth and has gotten seperated from his ship. Kal
-    has to get back to his ship and fly back to mars to return home.
-
-
-    LEVEL 1 - THE DESERT (NORMAL)
-
-
-    Kal has landed in a desert. Kal must avoid the obstacles and enemies that stand
-    in his way. Kal also needs to collect bolts to repair his ship.
-
-
-    Run through The Desert to find the boat to get to The Bayou where Kal''s ship
-    is!'
+  m_Text: "Kal moves normally and there is only one enemy.\n\nKal has crash landed
+    on earth and has gotten seperated from his ship. Kal has to get back to his ship
+    and fly back to mars to return home.\n\nRun through The Desert to find the boat
+    then get to The Bayou where Kal's ship is! \n\nCollect as many bolts as you can!\n"
 --- !u!222 &1235865620
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -686,6 +809,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1235865618}
+  - {fileID: 859287872}
   - {fileID: 650285698}
   - {fileID: 650519788}
   m_Father: {fileID: 1554785530}
@@ -853,7 +977,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1554785530
 RectTransform:
@@ -1008,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 2629499699917798999, guid: 39bba9f6fcb982840b71c6fab70bfd49,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2629499699917798999, guid: 39bba9f6fcb982840b71c6fab70bfd49,
         type: 3}

@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Game/_Singleplayer/_Scenes/_Menus/MainOptions.unity
     guid: d23bb93761e7e2940b9312943938af7b
   - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/MusicCredits.unity
+    guid: 2989cb964090e2a4fa27552c3ae1aa55
+  - enabled: 1
     path: Assets/Game/_Singleplayer/_Scenes/_Menus/ControlOptions.unity
     guid: ab881807f37a1594098bae4644197a85
   - enabled: 1

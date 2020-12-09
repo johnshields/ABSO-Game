@@ -2482,7 +2482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8280e4936a7e4429f6809bfe470390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P1doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &553255706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3922,7 +3922,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300001, guid: cc0bf72c5763743468b1ee3d764d3d04,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3d6c0ec1fcf767741b4b9d847c02932b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 229d1f236cac2e944a1c6d710cc9c749, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
@@ -5947,7 +5947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8280e4936a7e4429f6809bfe470390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P1doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1112694729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6259,7 +6259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8280e4936a7e4429f6809bfe470390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P1doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1161224326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10475,7 +10475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8280e4936a7e4429f6809bfe470390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P1doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &1877523926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3707455722277340202, guid: bd93b03faa59b014baf9e417022bc7bd,
@@ -10494,7 +10494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8280e4936a7e4429f6809bfe470390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P1doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1001 &1877624297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12736,7 +12736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8280e4936a7e4429f6809bfe470390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1doubleBoltsSound: {fileID: 8300000, guid: 35da027356b34bf4fbc5c94a438670de, type: 3}
+  P1doubleBoltsSound: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
 --- !u!1 &2093143428 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7486234011561848931, guid: faecdf96277464346860783ef10143a0,
@@ -13708,7 +13708,7 @@ PrefabInstance:
     - target: {fileID: 2010107273, guid: 2e55aab6225063446ae4eca11823f29e, type: 3}
       propertyPath: voice
       value: 
-      objectReference: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+      objectReference: {fileID: 8300000, guid: 7378d51a33c16d64bb6b4734df34aaa8, type: 3}
     - target: {fileID: 2010107274, guid: 2e55aab6225063446ae4eca11823f29e, type: 3}
       propertyPath: m_Size.y
       value: 1.4990668

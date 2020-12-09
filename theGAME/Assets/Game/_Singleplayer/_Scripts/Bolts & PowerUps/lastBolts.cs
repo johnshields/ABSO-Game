@@ -1,21 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Last Bolts Script
+    * Load current amount of Bolts from PlayerPrefs
+    * Display the collected Bolts from the Player's last game in Main Menu
+*/
+
 using UnityEngine;
 using UnityEngine.UI;
 
 public class lastBolts : MonoBehaviour
 {
-        public int bolts;
+    public int bolts;
+
     void Start()
     {
-        // load bolts
+        // load Player Bolts
         bolts = PlayerPrefs.GetInt("bolts");
     }
     // bolt counter
+
+    // display Bolt Counter
     private void OnGUI()
     {
-        // display bolt counter
+        // find Bolt Counter - Canvas - Text
         Text boltTXT = GameObject.Find("Canvas/Text").GetComponent<Text>();
+        // and add the updated Bolt amount
         boltTXT.text = "BOLTS FROM LAST GAME: " + bolts;
     }
 }

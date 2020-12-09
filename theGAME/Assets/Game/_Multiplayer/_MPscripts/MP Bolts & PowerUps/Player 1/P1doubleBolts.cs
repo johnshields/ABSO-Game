@@ -1,26 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Player 1 Double Bolts Script
+    * Double Bolts collected in game for Player 1 - Rotate Double Bolt
+    * When PLayer 1 collides with Double Bolt play sound at Camera's position
+    * Destroy Double Bolt from game - add Double Bolts to the Player 1's Bolt Counter
+*/
+
 using UnityEngine;
-using UnityEngine.UI;
 
 public class P1doubleBolts : MonoBehaviour
 {
     [SerializeField] AudioClip P1doubleBoltsSound;
 
-    // rotate bolt
+    // rotate Bolt
     void Update()
     {
         transform.Rotate(new Vector3(1f, 5f, 5f));
     }
 
-    // play pickup sound, add score and delete bolt from game
-    private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter(Collider other)
     {
+        // play sound at the Camera's position
         AudioSource.PlayClipAtPoint(P1doubleBoltsSound, Camera.main.transform.position);
-        Destroy(gameObject);
-
-        // add to the bolt counter
+        Destroy(gameObject); // destroy Bolt
+        // add bolt x 2 to the bolt counter
         other.GetComponent<P1boltCounter>().P1bolts+=2;
     }
 }
-

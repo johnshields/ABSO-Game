@@ -1,26 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Pickup Bolts Script
+    * Regular Bolts collected in game for Player - Rotate Bolt 
+    * When PLayer collides with Bolt play sound at Camera's position
+    * Destroy Bolt from game - add Bolt to the Player's Bolt Counter
+*/
+
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Pickup : MonoBehaviour
 {
     [SerializeField] AudioClip pickupSound;
 
-    // rotate bolt
     void Update()
     {
+        // rotate Bolt
         transform.Rotate(new Vector3(1f, 5f, 5f));
     }
 
-    // play pickup sound, add score and delete bolt from game
     private void OnTriggerEnter(Collider other)
     {
-            AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
-            Destroy(gameObject);
-
-            // add to the bolt counter
-            other.GetComponent<BoltCounter>().bolts+=1;
+        // player sound at the Camera's position
+        AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
+        Destroy(gameObject); // destroy Bolt
+        // add to the Bolt Counter
+        other.GetComponent<BoltCounter>().bolts+=1;
     }
 }
 

@@ -1,5 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Player 2 Bolt Counter Script
+    * Load current amount of Bolts from PlayerPrefs - Save Bolts to Player Prefs
+    * Display the collected Bolts in game
+*/
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,21 +14,22 @@ public class P2boltCounter : MonoBehaviour
 
     void Start()
     {
-        // load bolts
+        // load Player 2 Bolts
         P2bolts = PlayerPrefs.GetInt("P2bolts");
     }
 
     void Update()
     {
-        // save bolts
+        // save Bolts to Player 2
         PlayerPrefs.SetInt("P2bolts", P2bolts);
     }
 
-    // bolt counter
+    // display Player 2 Bolt Counter
     private void OnGUI()
     {
-        // display bolt counter
+        // find Player 2 Bolt Counter - Canvas - Text
         Text boltTXT = GameObject.Find("P2canvas/Text").GetComponent<Text>();
+        // and add the updated Bolt amount
         boltTXT.text = "PLAYER 2 BOLTS: " + P2bolts;
     }
 }

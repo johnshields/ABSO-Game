@@ -1,23 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Camera Script
+    * Camera finds the Player's position - camera follows Player's position
+*/
+
 using UnityEngine;
 
 public class camera : MonoBehaviour
 {
     private Transform player;
-
     private float yOffset = 12f;
     private float zOffset = -5f;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // camera finds the  Player's position
         player = GameObject.Find("Player").transform;
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
+        // camera follows Player's position
         transform.position = new Vector3(player.position.x, player.position.y + yOffset,player.position.z + zOffset);
     }
 }

@@ -529,22 +529,37 @@ PrefabInstance:
     - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
         type: 3}
       propertyPath: m_fontColor.r
-      value: 0.078431375
+      value: 0.21176472
       objectReference: {fileID: 0}
     - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
         type: 3}
       propertyPath: m_fontColor.g
-      value: 0.4039216
+      value: 0.47450984
       objectReference: {fileID: 0}
     - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
         type: 3}
       propertyPath: m_fontColor.b
-      value: 0.1764706
+      value: 0.24705884
       objectReference: {fileID: 0}
     - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
         type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4281165588
+      value: 4282349878
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357436302475067799, guid: 809257f27ae15164599440e552482b7b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 105
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 809257f27ae15164599440e552482b7b, type: 3}
@@ -604,7 +619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.078431375, g: 0.4039216, b: 0.1764706, a: 1}
+  m_Color: {r: 0.20784315, g: 0.47058827, b: 0.24705884, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

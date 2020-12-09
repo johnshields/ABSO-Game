@@ -1,8 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Player Script
+    * Player movement - walk foward + move side to side
+    * Player does not jump if is not touching the ground layer
+*/
+
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -12,20 +15,15 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip jumpSound;
     [SerializeField] AudioClip playerSound;
     CapsuleCollider myBodyCollider;
-    BoxCollider bc;
     Rigidbody rb;
 
-    //static var score : int = 0;
-
-    // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>(); 
         myBodyCollider = GetComponent<CapsuleCollider>();
-        AudioSource.PlayClipAtPoint(playerSound, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(playerSound, Camera.main.transform.position); // spawn sound
     }
 
-    // Update is called once per frame
     void Update()
     {
         Run();
@@ -37,7 +35,6 @@ public class Player : MonoBehaviour
         // walk foward + move side to side
         float hMove = Input.GetAxis("Horizontal") * moveSpeed / 2;
         float vMove = Input.GetAxis("Vertical") * moveSpeed;
-
         transform.Translate(new Vector3(hMove, 0, vMove) * Time.deltaTime);
     }
 
@@ -45,9 +42,10 @@ public class Player : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
+            // player does not jump if is not touching the ground layer
             if (transform.position.y <=Feet) {
-                GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight);
-                AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position);
+                GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight); // jump height
+                AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position); // jump sound
 
             }
         }

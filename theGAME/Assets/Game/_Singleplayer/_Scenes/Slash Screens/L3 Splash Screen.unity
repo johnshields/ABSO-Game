@@ -236,7 +236,7 @@ PrefabInstance:
     - target: {fileID: 8156823147709491368, guid: c00b8feb27e18fb49ae3a46c10bd5914,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8156823147709491368, guid: c00b8feb27e18fb49ae3a46c10bd5914,
         type: 3}
@@ -432,6 +432,136 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1235317122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1340325775}
+    m_Modifications:
+    - target: {fileID: 5591680553866592674, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Name
+      value: level
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591680553866592672, guid: b68a9b8de9a992140b909f81aafb9214,
+        type: 3}
+      propertyPath: m_Text
+      value: "LEVEL 3 - MARS \nNIGHTMARE"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b68a9b8de9a992140b909f81aafb9214, type: 3}
+--- !u!224 &1235317123 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5591680553866592673, guid: b68a9b8de9a992140b909f81aafb9214,
+    type: 3}
+  m_PrefabInstance: {fileID: 1235317122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1235865617
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,11 +592,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1340325775}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -46}
+  m_AnchoredPosition: {x: 0, y: -85}
   m_SizeDelta: {x: 1000, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1235865619
@@ -500,10 +630,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LEVEL 3 - MARS (NIGHTMARE)
-
-
-    Run through Mars to get Kal home safe and sound!'
+  m_Text: "Kal can run faster and jump higher. \nThere are far more enemies and there
+    are far less respawn points.\n\nRun through Mars to get Kal home safe and sound!"
 --- !u!222 &1235865620
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -542,6 +670,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1601343679}
+  - {fileID: 1235317123}
   - {fileID: 1235865618}
   - {fileID: 450076480}
   m_Father: {fileID: 1554785530}

@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/**
+    * John Shields - G00348436
+    * Key Bind Script 
+    * Allow Player to change the controls of movement in game
+    * I actually couldn't get this working - more detail in the Developer Diary
+    * I left it in as there was a good bit of work involved
+*/
+
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,16 +23,13 @@ public class KeyBindScript : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-
-        /*
+    {   
         keys.Add("Up", KeyCode.W);
         keys.Add("Down", KeyCode.S);
         keys.Add("Left", KeyCode.A);
         keys.Add("Right", KeyCode.D);
         keys.Add("Jump", KeyCode.Space);
-        */
-
+        
         // taking the PlayerPrefs and loading it. Getting a string called "Up" (default = "W") and returns what key the player has saved
         keys.Add("Up",(KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Up", "W")));
         keys.Add("Down", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Down", "S")));
@@ -33,7 +37,7 @@ public class KeyBindScript : MonoBehaviour
         keys.Add("Right", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Right", "D")));
         keys.Add("Jump", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Jump", "Space")));
 
-        up.text = keys["Up"].ToString(); //KeyCode.W == "W"
+        up.text = keys["Up"].ToString(); // example - KeyCode.W == "W"
         down.text = keys["Down"].ToString();
         left.text = keys["Left"].ToString();
         right.text = keys["Right"].ToString();
@@ -43,6 +47,7 @@ public class KeyBindScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // example if the 'Up' key is pressed log it on the console
         if (Input.GetKeyDown(keys["Up"]))
         {
             Debug.Log("Up");
@@ -97,22 +102,20 @@ public class KeyBindScript : MonoBehaviour
     // reset keys to default
     public void DefaultKeys()
     {
-        PlayerPrefs.DeleteAll();
-        Time.timeScale = 1f;
+        PlayerPrefs.DeleteAll(); // Delete the changes the Player has made 
+        // load to the main options menu
         SceneManager.LoadScene("MainOptions");
-        AudioListener.volume = 1f;
+        AudioListener.volume = 1f; // resume volume level
     }
 
     // save control changes and return to options
-    // note may only work on an actual build of the game
-    public void SAVEandReturn()
+    public void SaveAndReturn()
     {
         foreach (var key in keys)
         {
             PlayerPrefs.SetString(key.Key, key.Value.ToString());
         }
-        PlayerPrefs.Save();
-        Time.timeScale = 1f;
+        PlayerPrefs.Save(); // save to PlayerPrefs
         SceneManager.LoadScene("MainOptions");
         AudioListener.volume = 1f;
     }

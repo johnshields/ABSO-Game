@@ -1,29 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+    * John Shields - G00348436
+    * Bolt Counter Script
+    * Load current amount of Bolts from PlayerPrefs - Save Bolts to Player Prefs
+    * Display the collected Bolts in game
+*/
+
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BoltCounter : MonoBehaviour
 {
-        public int bolts;
+    public int bolts;
 
     void Start()
     {
-        // load bolts
+        // load Player Bolts
         bolts = PlayerPrefs.GetInt("bolts");
     }
 
     void Update()
     {
-        // save bolts
+        // save Bolts to Player
         PlayerPrefs.SetInt("bolts", bolts);
     }
 
-    // bolt counter
+    // display Bolt Counter
     private void OnGUI()
     {
-        // display bolt counter
+        // find Bolt Counter - Canvas - Text
         Text boltTXT = GameObject.Find("Canvas/Text").GetComponent<Text>();
+        // and add the updated Bolt amount
         boltTXT.text = "BOLTS: " + bolts;
     }
 }
