@@ -2,13 +2,12 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/theGAME/[Ll]ibrary/
+/theGAME/[Tt]emp/
+/theGAME/[Bb]uild/
+/theGAME/[Bb]uilds/
+/theGAME/[Ll]ogs/
+/theGAME/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -61,7 +60,7 @@ crashlytics-build.properties
 "Temp/*"
 
 # git files
-.gitattributes
+/.gitattributes
 
 # Excel file of Test Plan
 /Plans & Documentation/docs/Game Test Plan.xlsx
