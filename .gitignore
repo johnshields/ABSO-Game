@@ -58,7 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-"Temp/*" 
+"Temp/*"
 
 # git files
 .gitattributes
+
+# Excel file of Test Plan
+/Plans & Documentation/docs/Game Test Plan.xlsx
