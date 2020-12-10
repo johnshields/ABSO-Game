@@ -6,7 +6,6 @@
     * Play sound at Camera's position - Destroy Power Up
 */
 
-using System.Collections;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour

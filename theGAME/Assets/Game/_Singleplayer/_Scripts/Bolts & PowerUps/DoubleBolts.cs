@@ -8,7 +8,6 @@
 
 using UnityEngine;
 
-// Double Bolts collected in game
 public class DoubleBolts : MonoBehaviour
 {
     [SerializeField] AudioClip doubleBoltsSound;

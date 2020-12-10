@@ -7,6 +7,7 @@
 */
 
 using UnityEngine;
+
 public class goldenBolt : MonoBehaviour
 {
     [SerializeField] AudioClip pickupSound;
