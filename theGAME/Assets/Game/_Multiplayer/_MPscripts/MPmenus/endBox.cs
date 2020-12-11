@@ -11,6 +11,7 @@ public class endBox : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+        // load scene 'MP_EndBox'
         SceneManager.LoadScene("MP_EndBox");
     }
 }

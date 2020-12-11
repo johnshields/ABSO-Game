@@ -1,6 +1,6 @@
 ﻿/**
     * John Shields - G00348436
-    * Key Bind Script 
+    * Key Bind Script
     * Allow Player to change the controls of movement in game
     * I actually couldn't get this working - more detail in the Developer Diary
     * I left it in as there was a good bit of work involved
@@ -17,19 +17,18 @@ public class KeyBindScript : MonoBehaviour
     public Text up, left, right, down, jump;
 
     private GameObject currentKey;
-    
+
     private Color32 normal = new Color(255, 255, 255, 0);
     private Color32 slected = new Color(155, 0, 255, 50);
 
-    // Start is called before the first frame update
     void Start()
-    {   
+    {
         keys.Add("Up", KeyCode.W);
         keys.Add("Down", KeyCode.S);
         keys.Add("Left", KeyCode.A);
         keys.Add("Right", KeyCode.D);
         keys.Add("Jump", KeyCode.Space);
-        
+
         // taking the PlayerPrefs and loading it. Getting a string called "Up" (default = "W") and returns what key the player has saved
         keys.Add("Up",(KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Up", "W")));
         keys.Add("Down", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Down", "S")));
@@ -44,7 +43,6 @@ public class KeyBindScript : MonoBehaviour
         jump.text = keys["Jump"].ToString();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // example if the 'Up' key is pressed log it on the console
@@ -94,7 +92,7 @@ public class KeyBindScript : MonoBehaviour
         {
             currentKey.GetComponent<Image>().color = normal;
         }
-		//change color of key when changed
+		    //change color of key when changed
         currentKey = clicked;
         currentKey.GetComponent<Image>().color = slected;
     }
@@ -102,7 +100,7 @@ public class KeyBindScript : MonoBehaviour
     // reset keys to default
     public void DefaultKeys()
     {
-        PlayerPrefs.DeleteAll(); // Delete the changes the Player has made 
+        PlayerPrefs.DeleteAll(); // Delete the changes the Player has made
         // load to the main options menu
         SceneManager.LoadScene("MainOptions");
         AudioListener.volume = 1f; // resume volume level

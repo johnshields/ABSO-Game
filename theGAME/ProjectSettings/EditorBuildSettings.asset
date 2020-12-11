@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Game/_Singleplayer/_Scenes/Levels/L2 BayouBox.unity
     guid: cce36d8b11e6860449ad0c6dfbd4869b
   - enabled: 1
-    path: Assets/Game/_Singleplayer/_Scenes/Portals/Ship2NextLevel 1.unity
+    path: Assets/Game/_Singleplayer/_Scenes/Portals/Ship2NextLevel.unity
     guid: 4b0135d24b29786489e4d7de242a8eca
   - enabled: 1
     path: Assets/Game/_Singleplayer/_Scenes/Slash Screens/L3 Splash Screen.unity

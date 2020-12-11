@@ -16,7 +16,7 @@ public class ResOptions : MonoBehaviour
 
     void SetScreenRes()
     {
-        // 648, 720, 1080
+        // 480, 720, 1080
         // getting the name of what button is pressed
         string index = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
 

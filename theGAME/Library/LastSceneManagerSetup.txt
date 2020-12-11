@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game/_Singleplayer/_Scenes/Levels/L3 MarsBox.unity
+- path: Assets/Game/_Singleplayer/_Scenes/_Menus/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

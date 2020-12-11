@@ -12,9 +12,9 @@ public class P1doubleBolts : MonoBehaviour
 {
     [SerializeField] AudioClip P1doubleBoltsSound;
 
-    // rotate Bolt
     void Update()
     {
+         // rotate Bolt
         transform.Rotate(new Vector3(1f, 5f, 5f));
     }
 
