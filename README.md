@@ -14,4 +14,4 @@ Fight through all 3 levels and collect as many Bolts as you can! Whoever Collect
 
 ###### Made with Unity.
 
- [The developer diary can be found here.](https://github.com/johnshields/Mobile-App-Game/wiki/Developer-Diary)
+ [The Developer Diary can be found here.](https://github.com/johnshields/Mobile-App-Game/wiki/Developer-Diary)
