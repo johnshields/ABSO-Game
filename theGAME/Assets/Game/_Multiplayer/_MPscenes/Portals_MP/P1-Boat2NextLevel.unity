@@ -1387,18 +1387,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 835447342, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_Name
-      value: 'mp btn '
-      objectReference: {fileID: 0}
-    - target: {fileID: 835447344, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MPmenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 1319244335, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_Name
-      value: mp menu
-      objectReference: {fileID: 0}
     - target: {fileID: 6752889747836392819, guid: 1160cab487cb99f4893589307256a4b2,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1423,6 +1411,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835447342, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_Name
+      value: 'mp btn '
+      objectReference: {fileID: 0}
+    - target: {fileID: 835447344, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MPmenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319244335, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_Name
+      value: mp menu
       objectReference: {fileID: 0}
     - target: {fileID: 1319244337, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
       propertyPath: m_Text
