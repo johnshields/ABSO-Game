@@ -13662,7 +13662,7 @@ PrefabInstance:
     - target: {fileID: 2010107273, guid: 2e55aab6225063446ae4eca11823f29e, type: 3}
       propertyPath: voice
       value: 
-      objectReference: {fileID: 8300000, guid: 7878cd80a2c98a34dbc17dbbec38f523, type: 3}
+      objectReference: {fileID: 8300000, guid: 7378d51a33c16d64bb6b4734df34aaa8, type: 3}
     - target: {fileID: 2010107274, guid: 2e55aab6225063446ae4eca11823f29e, type: 3}
       propertyPath: m_Size.y
       value: 1.4990668
