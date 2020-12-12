@@ -3393,7 +3393,7 @@ MonoBehaviour:
   voice: {fileID: 8300000, guid: ba4a2107d9de47e4f8dd40d40dc96693, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
-  respawnPoint: {fileID: 721009656}
+  respawnPoint: {fileID: 2068834844}
 --- !u!65 &120154211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54493,6 +54493,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1660673947478733524, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: powerUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
+    - target: {fileID: 1660673948768368167, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948840975637, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948345825522, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948560617469, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948599202374, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
+    - target: {fileID: 1660673948128367309, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: doubleBoltsSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
     - target: {fileID: 1660673947478733525, guid: bd93b03faa59b014baf9e417022bc7bd,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -54503,41 +54538,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 499.93
       objectReference: {fileID: 0}
-    - target: {fileID: 1660673948840975637, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: doubleBoltsSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
-    - target: {fileID: 1660673948768368167, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: doubleBoltsSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
-    - target: {fileID: 1660673948345825522, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: doubleBoltsSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
-    - target: {fileID: 1660673948599202374, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: doubleBoltsSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
-    - target: {fileID: 1660673948560617469, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: doubleBoltsSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
-    - target: {fileID: 1660673948128367309, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: doubleBoltsSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 10e969cd1096e074dbfd1e41aea6c619, type: 3}
-    - target: {fileID: 1660673947478733524, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: powerUpSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd93b03faa59b014baf9e417022bc7bd, type: 3}
 --- !u!4 &1803575963 stripped
@@ -62068,6 +62068,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6752889748861395061, guid: 1160cab487cb99f4893589307256a4b2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6752889747836392819, guid: 1160cab487cb99f4893589307256a4b2,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -62092,11 +62097,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6752889748861395061, guid: 1160cab487cb99f4893589307256a4b2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1160cab487cb99f4893589307256a4b2, type: 3}

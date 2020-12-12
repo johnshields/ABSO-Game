@@ -11672,7 +11672,7 @@ PrefabInstance:
     - target: {fileID: 7486234011561848941, guid: faecdf96277464346860783ef10143a0,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.0428913
+      value: 3.042891
       objectReference: {fileID: 0}
     - target: {fileID: 7486234011561848941, guid: faecdf96277464346860783ef10143a0,
         type: 3}
@@ -11682,17 +11682,22 @@ PrefabInstance:
     - target: {fileID: 7486234011561848941, guid: faecdf96277464346860783ef10143a0,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.0067805056
+      value: -0.023996474
       objectReference: {fileID: 0}
     - target: {fileID: 7486234011561848941, guid: faecdf96277464346860783ef10143a0,
         type: 3}
       propertyPath: m_Center.y
-      value: -0.07947697
+      value: -0.07947716
       objectReference: {fileID: 0}
     - target: {fileID: 7486234011561848941, guid: faecdf96277464346860783ef10143a0,
         type: 3}
       propertyPath: m_Center.z
       value: 0.71984524
+      objectReference: {fileID: 0}
+    - target: {fileID: 7486234011561848941, guid: faecdf96277464346860783ef10143a0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.4127595
       objectReference: {fileID: 0}
     - target: {fileID: 7486234011561848940, guid: faecdf96277464346860783ef10143a0,
         type: 3}
@@ -37089,17 +37094,17 @@ PrefabInstance:
       propertyPath: powerUpSound
       value: 
       objectReference: {fileID: 8300000, guid: 10130a35de1658d4585527b9cf8d5924, type: 3}
-    - target: {fileID: 4607704137601198715, guid: f62d378dad123384281de061bb9a3134,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4607704137601198713, guid: f62d378dad123384281de061bb9a3134,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 62b8c4640a70a2a41bd3ca55410a0193,
         type: 3}
+    - target: {fileID: 4607704137601198715, guid: f62d378dad123384281de061bb9a3134,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62d378dad123384281de061bb9a3134, type: 3}
 --- !u!4 &797917611 stripped
@@ -105793,12 +105798,12 @@ PrefabInstance:
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 3.0092666e-36
       objectReference: {fileID: 0}
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1
+      value: 1.009742e-28
       objectReference: {fileID: 0}
     - target: {fileID: 124860487924523166, guid: 9a53e442b1e8ef1458f1193114cc19bb,
         type: 3}

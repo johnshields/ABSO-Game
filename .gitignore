@@ -65,3 +65,7 @@ crashlytics-build.properties
 
 # Excel file of Test Plan
 /Plans & Documentation/docs/Game Test Plan.xlsx
+
+# custom compiler
+/theGAME/Compiler/
+/theGAME/Assets/Editor/

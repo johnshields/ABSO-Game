@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.29629105, g: 0.24454755, b: 0.22886425, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -51,8 +51,8 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 12
     m_Resolution: 2
@@ -39778,7 +39778,7 @@ MonoBehaviour:
   voice: {fileID: 8300000, guid: ba4a2107d9de47e4f8dd40d40dc96693, type: 3}
   death: {fileID: 8300000, guid: 77539592208c2a1409d223e4797d4849, type: 3}
   player: {fileID: 807379687}
-  respawnPoint: {fileID: 721009656}
+  respawnPoint: {fileID: 2068834844}
 --- !u!65 &1248052520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43016,8 +43016,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.774707, y: 0.7312219, z: 1}
+  m_Center: {x: 0.3027466, y: -0.1343897, z: 0}
 --- !u!1001 &1341369469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56877,6 +56877,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1660673947478733524, guid: bd93b03faa59b014baf9e417022bc7bd,
+        type: 3}
+      propertyPath: powerUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
     - target: {fileID: 1660673947478733525, guid: bd93b03faa59b014baf9e417022bc7bd,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -56887,11 +56892,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 499.93
       objectReference: {fileID: 0}
-    - target: {fileID: 1660673947478733524, guid: bd93b03faa59b014baf9e417022bc7bd,
-        type: 3}
-      propertyPath: powerUpSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 1738bc360b316064e9554bb020405929, type: 3}
     m_RemovedComponents:
     - {fileID: 1660673948768368167, guid: bd93b03faa59b014baf9e417022bc7bd, type: 3}
     - {fileID: 1660673948840975637, guid: bd93b03faa59b014baf9e417022bc7bd, type: 3}
@@ -62172,8 +62172,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.9220703, y: 0.7582146, z: 1}
+  m_Center: {x: 0.25023195, y: -0.12089301, z: 0}
 --- !u!1 &1926852170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b,
@@ -64697,6 +64697,23 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6752889748861395061, guid: 1160cab487cb99f4893589307256a4b2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 835447342, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_Name
+      value: 'MP btn '
+      objectReference: {fileID: 0}
+    - target: {fileID: 835447344, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MPmenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319244335, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
+      propertyPath: m_Name
+      value: MP menu
+      objectReference: {fileID: 0}
     - target: {fileID: 6752889747836392819, guid: 1160cab487cb99f4893589307256a4b2,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -64721,23 +64738,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6752889748861395061, guid: 1160cab487cb99f4893589307256a4b2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 835447342, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_Name
-      value: 'MP btn '
-      objectReference: {fileID: 0}
-    - target: {fileID: 835447344, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MPmenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 1319244335, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
-      propertyPath: m_Name
-      value: MP menu
       objectReference: {fileID: 0}
     - target: {fileID: 1319244337, guid: 1160cab487cb99f4893589307256a4b2, type: 3}
       propertyPath: m_FontData.m_FontSize
