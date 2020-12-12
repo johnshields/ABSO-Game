@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Game/_Singleplayer/_Scenes/Portals/Ship2NextLevel.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
