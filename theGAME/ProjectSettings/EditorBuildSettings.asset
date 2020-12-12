@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/MainMenu.unity
+    guid: 590d38753be5e184dbca876150b49437
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/MainOptions.unity
+    guid: d23bb93761e7e2940b9312943938af7b
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/MusicCredits.unity
+    guid: 2989cb964090e2a4fa27552c3ae1aa55
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/ControlOptions.unity
+    guid: ab881807f37a1594098bae4644197a85
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/ResOptions.unity
+    guid: d39ea708f16e33e40814102a665e4ac0
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Menus_MP/MultiplayerMenu.unity
+    guid: ff66fa1c6107a8646b298923a4cfa532
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Slash Screens/L1 Splash Screen.unity
+    guid: f8248ccc24369154f8e11c086cc3eee0
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Levels/L1 SandBox.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Portals/Boat2NextLevel.unity
+    guid: bc8ef1e31612a204bb5e02c8b33df085
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Slash Screens/L2 Splash Screen.unity
+    guid: 2c633e1ff8114a14e83958351627bd66
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Levels/L2 BayouBox.unity
+    guid: cce36d8b11e6860449ad0c6dfbd4869b
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Portals/Ship2NextLevel.unity
+    guid: 4b0135d24b29786489e4d7de242a8eca
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Slash Screens/L3 Splash Screen.unity
+    guid: 74590792f80818f468e20f51fb269fed
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/Levels/L3 MarsBox.unity
+    guid: 0aaba46c89f55b24891ecadbbe73c342
+  - enabled: 1
+    path: Assets/Game/_Singleplayer/_Scenes/_Menus/EndBox.unity
+    guid: 70c0cecebc01b234890d92715c447b30
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Menus_MP/P1_Splash Screen.unity
+    guid: 2f2e5e68928bf6440bd90784124140cb
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P1 Levels/P1-L1 SandBox.unity
+    guid: 20d925aab776e2f4b9ccae29294d72a8
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Portals_MP/P1-Boat2NextLevel.unity
+    guid: eb36b1f405193e74580c300aea32bcbd
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P1 Levels/P1-L2 BayouBox.unity
+    guid: 88308e81917892044b01ed6a13748578
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Portals_MP/P1-Ship2NextLevelMP.unity
+    guid: 1ebab9d6cabb076469b72df34b2f074f
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P1 Levels/P1-L3 MarsBox.unity
+    guid: c018e420399c7c34b891cf54fc9acf2c
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Menus_MP/P2_Splash Screen.unity
+    guid: a610a6d40ceeb934fac986c8815bd237
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P2 Levels/P2-L1 SandBox.unity
+    guid: 1241a93552c72744296cf8fe59e68f66
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Portals_MP/P2-Boat2NextLevel.unity
+    guid: 19be0004a3a639740a8be596eb644a6f
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P2 Levels/P2-L2 BayouBox.unity
+    guid: 7673cbe1dad319349a68b9ed73c89d9f
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Portals_MP/P2-Ship2NextLevelMP.unity
+    guid: 258657c44f0bb584b888cf6442768e47
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Levels_MP/P2 Levels/P2-L3 MarsBox.unity
+    guid: ebae7042fab4e464a824f95c150e891c
+  - enabled: 1
+    path: Assets/Game/_Multiplayer/_MPscenes/Menus_MP/MP_EndBox.unity
+    guid: d4b66a4b5a25354449b7c699839d23a8
+  m_configObjects: {}
