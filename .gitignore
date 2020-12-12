@@ -2,12 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/theGAME/[Ll]ibrary/
-/theGAME/[Tt]emp/
-/theGAME/[Bb]uild/
-/theGAME/[Bb]uilds/
-/theGAME/[Ll]ogs/
-/theGAME/[Mm]emoryCaptures/
+/theGAME/Library/
+/theGAME/Temp/
+/theGAME/Logs/
+
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -19,8 +17,8 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio + code cache directory
-/theGAME/.vs/
-/theGAME/.vscode/
+.vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
