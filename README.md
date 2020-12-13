@@ -14,4 +14,4 @@ Fight through all 3 levels and collect as many Bolts as you can! Whoever Collect
 
 ###### Made with Unity.
 
-Check out the Game's wiki [here](https://github.com/johnshields/MAD_3_Game/wiki).
+Check out the Game's Wiki [here](https://github.com/johnshields/MAD_3_Game/wiki).
