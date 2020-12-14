@@ -69,3 +69,6 @@ crashlytics-build.properties
 # custom compiler
 /theGAME/Compiler/
 /theGAME/Assets/Editor/
+
+# game build
+/gameBuild/
