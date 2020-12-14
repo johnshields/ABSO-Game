@@ -18,7 +18,9 @@ Fight through all 3 levels and collect as many Bolts as you can! Whoever Collect
 
 ###### Playable versions:
 
-[Standalone Windows 64 bit](https://drive.google.com/file/d/1uSd6eQTvNiLw2gY3C7wndVVs-tCNCm3b/view?usp=sharing).
+[Windows 64 bit](https://developer.cloud.unity3d.com/share/share.html?shareId=-k5HWV90dL).
+
+[Windows 32 bit](https://developer.cloud.unity3d.com/share/share.html?shareId=-kpuBQAAuU)
 
 Click on the version you can play. Download the .zip file.
 Right click on the .zip file and extract it to a folder of your choice.
