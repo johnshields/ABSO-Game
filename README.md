@@ -15,7 +15,7 @@ Fight through all 3 levels and collect as many Bolts as you can! Whoever Collect
 ###### Made with Unity.
 ***
 ### How to play the Game.
-The Game download can be found [here](https://www.mediafire.com/file/lhkz4mi1pzzsnn0/ABSO_TheGame.zip/file).
+The Game download can be found [here](https://drive.google.com/file/d/1vFKwrPpzRmoPBLEhcxmg_R92cEckERnI/view?usp=sharing).
 Right click on the .zip file and extract it to a folder of your choice.
 Go into the folder and double click the .exe file to launch the Game. Have a blast! :rocket:
 
