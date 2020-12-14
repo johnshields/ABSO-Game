@@ -15,7 +15,12 @@ Fight through all 3 levels and collect as many Bolts as you can! Whoever Collect
 ###### Made with Unity.
 ***
 ### How to play the Game.
-The Game download can be found [here](https://drive.google.com/file/d/1vFKwrPpzRmoPBLEhcxmg_R92cEckERnI/view?usp=sharing).
+
+###### Playable versions:
+
+[Standalone Windows 64 bit](https://drive.google.com/file/d/1uSd6eQTvNiLw2gY3C7wndVVs-tCNCm3b/view?usp=sharing).
+
+Click on the version you can play. Download the .zip file.
 Right click on the .zip file and extract it to a folder of your choice.
 Go into the folder and double click the .exe file to launch the Game. Have a blast! :rocket:
 
