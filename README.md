@@ -14,11 +14,11 @@ Fight through all 3 levels and collect as many Bolts as you can! Whoever Collect
 
 ###### Made with Unity.
 ***
-### How to play the Game.
+# Play the Game!
 
 ###### Playable versions:
 
-[Windows 64 bit](https://developer.cloud.unity3d.com/share/share.html?shareId=-k5HWV90dL).
+[Windows 64 bit](https://developer.cloud.unity3d.com/share/share.html?shareId=-k5HWV90dL)
 
 [Windows 32 bit](https://developer.cloud.unity3d.com/share/share.html?shareId=-kpuBQAAuU)
 
