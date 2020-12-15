@@ -13,12 +13,14 @@ public class menuMP : MonoBehaviour
     {
         // play the game for Player 1
         SceneManager.LoadScene("P1_Splash Screen");
+        Debug.Log("Player 1 Selected");
     }
 
     public void Player2()
     {
         // play the game for Player 2
         SceneManager.LoadScene("P2_Splash Screen");
+        Debug.Log("Player 2 Selected");
     }
 
     public void BackMainMenu()
@@ -27,6 +29,7 @@ public class menuMP : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
         AudioListener.volume = 1f;
+        Debug.Log("Load Main Menu");
     }
  
     public void MPmenu()
@@ -37,5 +40,6 @@ public class menuMP : MonoBehaviour
         AudioListener.volume = 1f;
         // restart Main Menu Music
         MenuAudio.Instance.gameObject.GetComponent<AudioSource>().Play();
+        Debug.Log("Load Multiplayer Menu");
     }
 }

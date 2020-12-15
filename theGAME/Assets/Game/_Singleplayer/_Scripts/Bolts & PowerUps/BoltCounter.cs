@@ -16,6 +16,7 @@ public class BoltCounter : MonoBehaviour
     {
         // load Player Bolts
         bolts = PlayerPrefs.GetInt("bolts");
+        Debug.Log("Bolts Loaded");
     }
 
     void Update()

@@ -46,7 +46,6 @@ public class Player : MonoBehaviour
             if (transform.position.y <=Feet) {
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight); // jump height
                 AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position); // jump sound
-
             }
         }
     }

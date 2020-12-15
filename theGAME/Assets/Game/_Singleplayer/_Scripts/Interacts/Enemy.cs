@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
         Time.timeScale = 0.1f; // slow down game
         AudioSource.PlayClipAtPoint(voice, Camera.main.transform.position); // enemy sound
         AudioSource.PlayClipAtPoint(death, Camera.main.transform.position); // player death
+        Debug.Log("Player is Dead");
         // call method to repawn the Player
         StartCoroutine(respawnPlayer());
     }
@@ -32,5 +33,6 @@ public class Enemy : MonoBehaviour
         Time.timeScale = 1f;
         // respawn the Player at last check point
         player.transform.position = respawnPoint.transform.position;
+        Debug.Log("Player Respawned");
     }
 }

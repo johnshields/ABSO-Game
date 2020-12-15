@@ -16,6 +16,7 @@ public class P2boltCounter : MonoBehaviour
     {
         // load Player 2 Bolts
         P2bolts = PlayerPrefs.GetInt("P2bolts");
+        Debug.Log("Player 2 Bolts Loaded");
     }
 
     void Update()

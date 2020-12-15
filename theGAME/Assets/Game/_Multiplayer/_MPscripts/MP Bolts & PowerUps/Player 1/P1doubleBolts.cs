@@ -25,5 +25,6 @@ public class P1doubleBolts : MonoBehaviour
         Destroy(gameObject); // destroy Bolt
         // add bolt x 2 to the bolt counter
         other.GetComponent<P1boltCounter>().P1bolts+=2;
+        Debug.Log("Add +2 Bolts to Bolt Counter and Double Bolt destroyed from Game");
     }
 }

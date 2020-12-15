@@ -23,5 +23,6 @@ public class PowerUp : MonoBehaviour
         // play sound at the Camera's position
         AudioSource.PlayClipAtPoint(powerUpSound, Camera.main.transform.position);
         Destroy(gameObject); // destroy Power Up
+        Debug.Log("Power Up Activated/Deactivated and destroyed from Game");
     }
 }

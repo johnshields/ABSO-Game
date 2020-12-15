@@ -766,9 +766,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 384dad22-e4c7-415c-a533-3ef74c93a42f
+  cloudProjectId: e76d960b-fe29-4d5a-99c6-2e1c61d9e9cb
   framebufferDepthMemorylessMode: 0
-  projectName: A Bayou-Space Odyssey The Game
+  projectName: A Bayou-Space Odyssey
   organizationId: shields
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

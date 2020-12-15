@@ -15,6 +15,7 @@ public class MPsplashScreen : MonoBehaviour
     {
         // pauseAudio from Main Menu
         MenuAudio.Instance.gameObject.GetComponent<AudioSource>().Stop();
+        Debug.Log("Main Menu music on hold");
     }
     
     // button to next screen
@@ -24,6 +25,8 @@ public class MPsplashScreen : MonoBehaviour
         PlayerPrefs.SetInt("P1bolts", 0);
         // load first level
         SceneManager.LoadScene("P1-L1 SandBox");
+        Debug.Log("Player 1's Bolts have been reset");
+        Debug.Log("Load Player 1 into Level");
     }
 
     public void P2Continue()
@@ -32,5 +35,7 @@ public class MPsplashScreen : MonoBehaviour
         PlayerPrefs.SetInt("P2bolts", 0);
         // load first level
         SceneManager.LoadScene("P2-L1 SandBox");
+        Debug.Log("Player's Bolts have been reset");
+        Debug.Log("Load Player 2 into Level");
     }
 }

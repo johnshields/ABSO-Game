@@ -27,6 +27,7 @@ public class P1goldenBolt : MonoBehaviour
             Destroy(gameObject); // destroy Golden Bolt
             // add bolt x 10 to the bolt counter
             other.GetComponent<P1boltCounter>().P1bolts += 10;
+            Debug.Log("Add +10 Bolts to Bolt Counter and Special Bolt destroyed from Game");
         }
     }
 }

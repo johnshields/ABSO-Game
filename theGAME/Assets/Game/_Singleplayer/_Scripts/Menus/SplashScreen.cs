@@ -14,11 +14,13 @@ public class SplashScreen : MonoBehaviour
     {
         // pauseAudio from Main Menu
         MenuAudio.Instance.gameObject.GetComponent<AudioSource>().Stop();
+        Debug.Log("Main Menu music on hold");
     }
-    // button to next screen
+
     public void Continue()
     {
         // load the next scene in the build
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("Load Player into Level");
     }
 }

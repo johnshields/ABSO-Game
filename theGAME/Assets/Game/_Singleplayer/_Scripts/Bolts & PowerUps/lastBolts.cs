@@ -16,6 +16,9 @@ public class lastBolts : MonoBehaviour
     {
         // load Player Bolts
         bolts = PlayerPrefs.GetInt("bolts");
+
+        Debug.Log("Main Menu has sucessfully started");
+        Debug.Log("Load Bolts from Last Game");
     }
 
     // display Bolt Counter

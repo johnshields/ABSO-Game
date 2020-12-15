@@ -16,6 +16,7 @@ public class P1boltCounter : MonoBehaviour
     {
         // load Player 1 Bolts
         P1bolts = PlayerPrefs.GetInt("P1bolts");
+        Debug.Log("Player 1 Bolts Loaded");
     }
 
     void Update()

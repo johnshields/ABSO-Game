@@ -18,9 +18,8 @@ public class nextLevel : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Time.timeScale = 0.5f; // slow game down
         // load scene
         SceneManager.LoadScene(nextSceneToLoad);
-        Time.timeScale = 1.0f; // normal game time
+        Debug.Log("Load Player into Next Level");
     }
 }

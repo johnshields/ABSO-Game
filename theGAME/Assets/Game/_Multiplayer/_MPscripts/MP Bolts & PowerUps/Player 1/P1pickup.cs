@@ -25,5 +25,6 @@ public class P1pickup : MonoBehaviour
         Destroy(gameObject); // destroy Bolt
         // add to the Bolt Counter
         other.GetComponent<P1boltCounter>().P1bolts+=1;
+        Debug.Log("Add +1 Bolts to Bolt Counter and Bolt destroyed from Game");
     }
 }

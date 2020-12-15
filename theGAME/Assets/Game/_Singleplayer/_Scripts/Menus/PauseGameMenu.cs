@@ -33,7 +33,6 @@ public class PauseGameMenu : MonoBehaviour
                 PauseTheGame();
                 AudioListener.volume = 0f;
             }
-
         }
     }
 
@@ -44,6 +43,7 @@ public class PauseGameMenu : MonoBehaviour
         Time.timeScale = 0f; // slow the game down to 0
         AudioListener.volume = 0f; // pause audio
         isPaused = true; // game is paused
+        Debug.Log("Game is Paused");
     }
 
     public void ResumeGame()
@@ -53,6 +53,7 @@ public class PauseGameMenu : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false; // game is not paused
         AudioListener.volume = 1f; // resume audio level
+        Debug.Log("Game is UnPaused");
     }
 
     public void BackMainMenu()
@@ -63,6 +64,8 @@ public class PauseGameMenu : MonoBehaviour
         AudioListener.volume = 1f;
         // restart main menu audio
         MenuAudio.Instance.gameObject.GetComponent<AudioSource>().Play();
+        Debug.Log("Main Menu music restarted");
+        Debug.Log("Load Main Menu");
     }
 
     public void MPmenu()
@@ -72,11 +75,13 @@ public class PauseGameMenu : MonoBehaviour
         SceneManager.LoadScene("MultiplayerMenu");
         AudioListener.volume = 1f;
         MenuAudio.Instance.gameObject.GetComponent<AudioSource>().Play();
+        Debug.Log("Load Multiplayer Menu");
     }
 
     public void ExitGame()
     {
         // exit the game
         Application.Quit();
+        Debug.Log("Closing the Game");
     }
 }

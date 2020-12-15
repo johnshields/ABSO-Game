@@ -27,6 +27,7 @@ public class P2goldenBolt : MonoBehaviour
             Destroy(gameObject); // destroy Golden Bolt
             // add bolt x 10 to the bolt counter
             other.GetComponent<P2boltCounter>().P2bolts += 10;
+            Debug.Log("Add +10 Bolts to Bolt Counter and Special Bolt destroyed from Game");
         }
     }
 }

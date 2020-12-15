@@ -16,6 +16,7 @@ public class camera : MonoBehaviour
     {
         // camera finds the  Player's position
         player = GameObject.Find("Player").transform;
+        Debug.Log("Camera has found Player's position and is now following the Player");
     }
 
     void LateUpdate()

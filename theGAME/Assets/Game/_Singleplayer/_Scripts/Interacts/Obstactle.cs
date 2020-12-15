@@ -14,5 +14,6 @@ public class Obstactle : MonoBehaviour
     {
         // when the Player hits obstacle play sound 
         AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position);
+        Debug.Log("Player hit Obstacle");
     }
 }

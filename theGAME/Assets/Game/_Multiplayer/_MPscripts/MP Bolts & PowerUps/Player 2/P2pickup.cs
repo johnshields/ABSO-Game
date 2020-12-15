@@ -26,6 +26,7 @@ public class P2pickup : MonoBehaviour
         Destroy(gameObject); // destroy Bolt
         // add to the Bolt Counter
         other.GetComponent<P2boltCounter>().P2bolts+=1;
+        Debug.Log("Add +1 Bolts to Bolt Counter and Bolt destroyed from Game");
     }
 }
 

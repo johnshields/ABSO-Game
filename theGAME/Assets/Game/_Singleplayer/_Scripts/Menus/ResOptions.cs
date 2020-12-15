@@ -12,6 +12,7 @@ public class ResOptions : MonoBehaviour
     public void SetResolution()
     {
         SetScreenRes();
+        Debug.Log("Resolution Changed");
     }
 
     void SetScreenRes()
@@ -44,5 +45,6 @@ public class ResOptions : MonoBehaviour
         SceneManager.LoadScene("MainOptions");
         // resume audio level
         AudioListener.volume = 1f;
+        Debug.Log("Resolution Options Saved");
     }
 }
