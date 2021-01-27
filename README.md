@@ -8,6 +8,17 @@ alt="GMIT Logo" width="500" height="200"/>
 #### Éoghan Muldoon - G00358767 (Game Designer)
 #### John Shields - G00348436 (Game Developer)
 ***
+
+## Project Details
+| **Project Title** | A Bayou-Space Odyssey |
+| :------------- |:-------------|
+| **Course**              | BSc (Hons) in Software Development |
+| **Module**              | Mobile Application Development 3 |
+| **Institute**           | [Galway-Mayo Institute of Technology](https://www.gmit.ie/) |
+| **Students**            | [John Shields](https://github.com/johnshields) & Éoghan Muldoon |
+| **Module Lecturer**     | Damien Costello |
+
+***
 # *A Bayou-Space Odyssey*
 ###### A 3D runner game.
 
