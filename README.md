@@ -1,4 +1,9 @@
-# Mobile Application Development 3 Project
+<h1 align="center">Mobile Application Development</h1>
+
+<a href="https://www.gmit.ie/" >
+<p align="center"><img src="https://i.ibb.co/f1ZQSkt/logo-gmit.png"
+alt="GMIT Logo" width="500" height="200"/>
+</p></a>
 
 #### Éoghan Muldoon - G00358767 (Game Designer)
 #### John Shields - G00348436 (Game Developer)
