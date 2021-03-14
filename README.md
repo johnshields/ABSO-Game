@@ -19,10 +19,11 @@ alt="GMIT Logo" width="500" height="200"/>
 | **Module Lecturer**     | Damien Costello |
 | **Grade Achieved**      | 71% |
 
+<p align="center"><img src="https://user-images.githubusercontent.com/26766163/111082963-0928d880-8503-11eb-9ce6-f6280b18c6c7.png"
+alt="GAME" width="600"/>
+  
 ***
-# *A Bayou-Space Odyssey*
-###### A 3D runner game.
-
+# About the Game
 Single Player synopsis: Kal has crash landed on earth and has been separated from his ship.
 Kal has to get back to his ship and fly to mars to return home!
 
